@@ -2,8 +2,10 @@
 import Head from 'next/head';
 
 // CSS
-import styles from './index.scss';
 import './styles.global.scss';
+
+// Components
+import Header from './components/Header';
 
 const Home = () => {
   return (
@@ -14,7 +16,7 @@ const Home = () => {
       </Head>
 
       <main>
-        <h1 className={styles.title}>Bruiloft Mike & Monika</h1>
+        <Header />
       </main>
 
       <footer></footer>
