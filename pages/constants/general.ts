@@ -51,3 +51,5 @@ Now, I don't know exactly when we turned on each other, but I know that seven of
 Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
 Nature is lethal but it doesn't hold a candle to man.
 `;
+
+export const FOOTER = 'Namens Mike & Monika, Bedankt en we kunnen niet wachten om je te zien. Tot 25 September !!';

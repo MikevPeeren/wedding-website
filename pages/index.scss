@@ -1,11 +1,13 @@
 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .mainContainer {
   display: flex;
   flex-flow: column wrap;
+  flex: 1;
 }
 
 .expandableContainer {

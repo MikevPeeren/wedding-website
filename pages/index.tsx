@@ -9,6 +9,7 @@ import styles from './index.scss';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import ExpandableBox from './components/ExpandableBox';
+import Footer from './components/Footer';
 
 // Constants
 import {
@@ -50,7 +51,9 @@ const Home = () => {
         </div>
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
