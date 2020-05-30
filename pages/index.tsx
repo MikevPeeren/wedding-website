@@ -7,11 +7,14 @@ import './styles.global.scss';
 // Components
 import Header from './components/Header';
 
+// Constants
+import { HEADER } from './constants/general';
+
 const Home = () => {
   return (
     <div className="container">
       <Head>
-        <title>Bruiloft Mike & Monika</title>
+        <title>{HEADER}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
