@@ -11,3 +11,8 @@ finder of lost children. And I will strike down upon thee with great vengeance a
 attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon
 thee.
 `;
+
+export const DAILY_PROGRAM = 'Dagprogramma';
+export const NIGHTLY_PROGRAM = 'Avondprogramma';
+export const WEDDING_LOCATION = 'Trouwlocatie';
+export const EXTRA_INFORMATION = 'Extra informatie';

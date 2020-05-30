@@ -7,3 +7,15 @@
   display: flex;
   flex-flow: column wrap;
 }
+
+.expandableContainer {
+  display: flex;
+  flex-direction: row wrap;
+  margin: 0 auto;
+}
+
+.expandable {
+  margin-top: 3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
