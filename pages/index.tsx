@@ -11,7 +11,17 @@ import Introduction from './components/Introduction';
 import ExpandableBox from './components/ExpandableBox';
 
 // Constants
-import { HEADER, DAILY_PROGRAM, NIGHTLY_PROGRAM, WEDDING_LOCATION, EXTRA_INFORMATION } from './constants/general';
+import {
+  HEADER,
+  DAILY_PROGRAM_TITLE,
+  DAILY_PROGRAM_TEXT,
+  NIGHTLY_PROGRAM_TITLE,
+  NIGHTLY_PROGRAM_TEXT,
+  WEDDING_LOCATION_TITLE,
+  WEDDING_LOCATION_TEXT,
+  EXTRA_INFORMATION_TITLE,
+  EXTRA_INFORMATION_TEXT,
+} from './constants/general';
 
 const Home = () => {
   return (
@@ -26,16 +36,16 @@ const Home = () => {
         <Introduction />
         <div className={styles.expandableContainer}>
           <div className={styles.expandable}>
-            <ExpandableBox title={DAILY_PROGRAM} />
+            <ExpandableBox title={DAILY_PROGRAM_TITLE} text={DAILY_PROGRAM_TEXT} />
           </div>
           <div className={styles.expandable}>
-            <ExpandableBox title={NIGHTLY_PROGRAM} />
+            <ExpandableBox title={NIGHTLY_PROGRAM_TITLE} text={NIGHTLY_PROGRAM_TEXT} />
           </div>
           <div className={styles.expandable}>
-            <ExpandableBox title={WEDDING_LOCATION} />
+            <ExpandableBox title={WEDDING_LOCATION_TITLE} text={WEDDING_LOCATION_TEXT} />
           </div>
           <div className={styles.expandable}>
-            <ExpandableBox title={EXTRA_INFORMATION} />
+            <ExpandableBox title={EXTRA_INFORMATION_TITLE} text={EXTRA_INFORMATION_TEXT} />
           </div>
         </div>
       </main>

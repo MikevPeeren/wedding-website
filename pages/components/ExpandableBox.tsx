@@ -8,21 +8,27 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+// Constants
+import { WEDDING_LOCATION_TITLE } from '../constants/general';
+
 interface ExpandableBox {
   title: string;
+  text: string;
 }
 
-const ExpandableBox = ({ title }) => {
-  const id = Math.random();
+const ExpandableBox = ({ title, text }) => {
   return (
     <ExpansionPanel className={styles.ExpandableBox}>
-      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-controls={id.toString()} id={id.toString()}>
+      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />} aria-controls={title} id={title}>
         <Typography>{title}</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
-        <Typography>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo
-          lobortis eget.
+        <Typography align="center">
+          {title === WEDDING_LOCATION_TITLE ? (
+            <img src="/trouwlocatie.jpg" alt="Italian Trulli" width="250" height="200" />
+          ) : (
+            text
+          )}
         </Typography>
       </ExpansionPanelDetails>
     </ExpansionPanel>

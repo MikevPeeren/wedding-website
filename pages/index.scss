@@ -10,7 +10,8 @@
 
 .expandableContainer {
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: 0 auto;
 }
 
