@@ -61,32 +61,77 @@ Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed w
 
 export const NIGHTLY_PROGRAM_TITLE = 'Avondprogramma';
 export const NIGHTLY_PROGRAM_TEXT = `
-You think water moves fast? You should see ice.
-It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-After the avalanche, it took us a week to climb out.
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.
-Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
-Nature is lethal but it doesn't hold a candle to man.
+<b>Hier vind je de informatie over het programma van de avond en de bijzonderheden.</b>
+<br/>
+<br/>
+<ul>
+
+<li>Helaas was een trouwfeest door de Corona-maatregelen niet mogelijk. Daarom hebben we gekozen voor een Trouwborrel die wel ‘Corona-Proof’ is. Geen DJ en openingsdans, wel proosten, samenzijn en feestvieren!</li>
+<br/>
+<li>Handen schudden en knuffelen is ook niet mogelijk nu, maar ook op 1.5 meter zien we vast en zeker dat je blij voor ons bent. Heb je een ander idee om ons te feliciteren geef het gerust aan.</li>
+<br/>
+<li>Bij goed weer is de borrel buiten en zullen er kampvuren, zitplaatsen en tafels worden geplaatst.</li>
+<br/>
+<li>Bij slecht weer wordt er een tent aan het gebouw gezet zodat er voldoende ruimte is voor iedereen om 1.5 meter ruimte te hebben</li>
+<br/>
+<li>Er worden extra grote borreltafels geplaatst zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.</li>
+<br/>
+<li>Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.</li>
+<br/>
+<li>Er staan handdesinfectie middelen waar je gebruik van mag maken.</li>
+</ul>
+<br/>
+<b>Programma:</b>
+<br/>
+<br/>
+<i>20.30 uur: </i> <br/> Inloop en ontvangst avondgasten
+<br/>
+<br/>
+<i>21.00 uur: </i> <br/> Aankomst Bruidspaar en toost met Schrobbelèr
+<br/>
+<br/>
+<i>1.00 uur: </i> <br/> Wij gaan naar bed…
+<br/>
+
 `;
 
 export const WEDDING_LOCATION_TITLE = 'Trouwlocatie';
 export const WEDDING_LOCATION_TEXT = `
-You think water moves fast? You should see ice.
-It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-After the avalanche, it took us a week to climb out.
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.
-Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
-Nature is lethal but it doesn't hold a candle to man.
+<img src="static/kloosternieuwkerk.jpg" style="z-index:999; position:relative"/>
+
+<ul>
+<li>We trouwen bij Klooster Nieuwkerk Adres: Nieuwkerk 2, 5051 PN Goirle  https://kloosternieuwkerkgoirle.nl/</li>
+<br/>
+<li>Onze trouwlocatie ligt in de bossen, dus de weg er naartoe is zo’n 2 kilometer zandweg als je de navigatie volgt. Het is goed te rijden, als je niet te snel rijdt.</li>
+<br/>
+<li>Je kunt de zandweg grotendeels vermijden door rechtsaf te slaan als er een bruin bordje ‘Klooster Nieuwkerk’ aan de rechterkant van de weg staat als je op Turnhoutsebaan rijdt (=de 80km weg).
+<br/>
+Volg de slinger weg en ga aan het einde rechtsaf. Het is dan nog maar een klein stukje over de zandweg rijden.</li>
+<br/>
+<li>Je kunt voor het klooster en rechts ervan parkeren, het makkelijkste is als je links om het gebouw heen loopt naar tuin waar de borrel is.</li>
+<br/>
+<li>Op de locatie zijn er looproutes aangebracht vanwege Corona, volg deze en aanwijzingen van het personeel op.</li>
+<br/>
+</ul>
 `;
 
 export const EXTRA_INFORMATION_TITLE = 'Extra informatie';
 export const EXTRA_INFORMATION_TEXT = `
-You think water moves fast? You should see ice.
-It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-After the avalanche, it took us a week to climb out.
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.
-Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
-Nature is lethal but it doesn't hold a candle to man.
+<ul>
+<li>Mocht je niet kunnen komen, vinden we dit erg jammer. Maar we horen het graag dus meldt je af bij ons of de ceremoniemeester.</li>
+<br/>
+<li>Het is mogelijk om te blijven slapen op de trouwlocatie. Er zijn een aantal tweepersoonskamers met eigen badkamer en kamers met een gedeelde badgelegenheid.</li>
+<br/>
+<li>Mocht je willen blijven slapen neem dan contact op met onze ceremoniemeester Karin Tufekçi-Verbunt via 06-10 95 27 33 of k.verbunt@hotmail.com</li>
+<br/>
+<li>Zij heeft een overzicht van de beschikbare kamers en de bijbehorende kosten. Zij zal dit dan ook communiceren met Klooster Nieuwkerk.</li>
+<br/>
+<li>Wij blijven in ieder geval slapen in de bruidssuite en zullen zorgen voor paracetamol tijdens het ontbijt.</li>
+<br/>
+<li>Als je blijft slapen dan kun je inchecken bij aankomst en je spullen eventueel al op je kamer leggen.</li>
+<br/>
+<li>Dit is natuurlijk overbodig; maar kom niet als je klachten hebt zoals beschreven door het RIVM.</li>
+</ul>
 `;
 
 export const HOME = 'Home';
