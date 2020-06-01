@@ -2,7 +2,7 @@
 import styles from './Introduction.scss';
 
 // Constants
-import { INTRODUCTION_FIRST, INTRODUCTION_SECOND } from '../constants/general';
+import { INTRODUCTION_FIRST, INTRODUCTION_SECOND, INTRODUCTION_THIRD, INTRODUCTION_FOURTH } from '../constants/general';
 
 const Introduction = () => {
   return (
@@ -11,6 +11,9 @@ const Introduction = () => {
       <br />
       <p className={styles.introductionSecond}>{INTRODUCTION_SECOND}</p>
       <br />
+      <p className={styles.introductionSecond}>{INTRODUCTION_THIRD}</p>
+      <br />
+      <p className={styles.introductionSecond}>{INTRODUCTION_FOURTH}</p>
     </>
   );
 };

@@ -9,6 +9,12 @@ export const INTRODUCTION_SECOND = `
 Het belangrijkste is dat we de mooiste dag uit ons leven kunnen vieren met onze familie en vrienden. Je vind in de menu’s hieronder informatie over het dag-, en avondprogramma, maar ook over de trouwlocatie en andere bijzonderheden. Is er iets onduidelijk neem gerust contact op met ons of met onze ceremoniemeester Karin Tufekçi-Verbunt. Haar informatie vind je op de uitnodiging en in het extra informatie menu.
 Onderaan de pagina staat een knop waarmee je de foto’s die je zelf maakt op onze trouwdag kunt uploaden en foto’s kunt downloaden die je wilt bewaren. We zouden het heel fijn vinden als je dat zou willen doen, zodat we onze dag kunnen blijven herinneren! Alle foto’s zijn welkom! 
 `;
+export const INTRODUCTION_THIRD = `
+We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!
+`;
+export const INTRODUCTION_FOURTH = `
+Liefs, Mike & Monika (&Belle)
+`;
 
 export const DAILY_PROGRAM_TITLE = 'Dagprogramma';
 export const DAILY_PROGRAM_TEXT = `
@@ -138,6 +144,4 @@ export const HOME = 'Home';
 export const PHOTO_ALBUM = 'Foto Album';
 export const UPLOAD_PHOTO = 'Upload Foto';
 
-export const FOOTER_FIRST =
-  'We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!';
-export const FOOTER_SECOND = 'Liefs, Mike & Monika (&Belle)';
+export const FOOTER_TEXT = 'Copyright blablabla';

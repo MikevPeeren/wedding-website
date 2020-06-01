@@ -2,17 +2,12 @@
 import styles from './Footer.scss';
 
 // Constants
-import { FOOTER_FIRST, FOOTER_SECOND } from '../constants/general';
+import { FOOTER_TEXT } from '../constants/general';
 
 const Footer = () => {
   return (
     <>
-      <div className={styles.Footer}>
-        {FOOTER_FIRST}
-        <br />
-        <br />
-        {FOOTER_SECOND}
-      </div>
+      <div className={styles.Footer}>{FOOTER_TEXT}</div>
     </>
   );
 };
