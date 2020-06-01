@@ -12,33 +12,51 @@ Onderaan de pagina staat een knop waarmee je de foto’s die je zelf maakt op on
 
 export const DAILY_PROGRAM_TITLE = 'Dagprogramma';
 export const DAILY_PROGRAM_TEXT = `
-Hier vind je de informatie over het programma van de dag en de bijzonderheden. 
- 
-Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen huishoudens of mensen die elkaar regelmatig zien bij elkaar zijn geplaatst. 
-Stoelen mogen verschoven worden als je dat zelf wilt, maar zorg wel voor de 1.5 meter met anderen.
-Het gangpad is extra breed om ook daar de 1.5  meter ruimte te creëren.
-Tijdens de borrel zijn er extra grote borreltafels zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.
-Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.
-Er staan handdesinfectie middelen waar je gebruik van mag maken.
- 
-Programma: 
-13.30 uur: Verzamelen daggasten op trouwlocatie
-De ceremoniemeester zal je ontvangen en je verder wijzen. 
-14.00 uur: Aankomst bruidspaar en start ceremonie
-Bij goed weer is de ceremonie buiten in een mooie tuin.  
-15.00 uur: Toost en Taart
-Wij snijden het eerste stuk taart aan en daarna zal de taart ‘Corona-Proof’ worden aangesneden en uitgedeeld door het personeel. Heb je toch liever geen taart dan geef dit aan bij de ceremoniemeester. 
-16.00 uur: Borrel
-Tijdens de borrel willen we graag foto’s met de daggasten maken. We zorgen ervoor dat er een mogelijkheid is om met 1.5 meter ertussen foto’s te maken als je dat prettig vind en nog steeds leuke foto’s te krijgen. 
-18.00 uur: Diner met daggasten
-Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed weer zal het diner buiten zijn. Voor het menu zie hieronder. 
-20.00 uur: Einde diner en mogelijkheid om even op te frissen 
- 
-Menu diner: 
-Shared Dining concept met als gangen: 
-Voorgerechten: 
-Hoofdgerechten:
-Nagerechten: 
+<h4>Hier vind je de informatie over het programma van de dag en de bijzonderheden.</h4>
+
+<ul>
+<li>Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen huishoudens of mensen die elkaar regelmatig zien bij elkaar zijn geplaatst.</li>
+<li>Stoelen mogen verschoven worden als je dat zelf wilt, maar zorg wel voor de 1.5 meter met anderen.</li>
+<li>Het gangpad is extra breed om ook daar de 1.5  meter ruimte te creëren.</li>
+<li>Tijdens de borrel zijn er extra grote borreltafels zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.</li>
+<li>Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.</li>
+<li>Er staan handdesinfectie middelen waar je gebruik van mag maken.</li>
+</ul>
+
+<b>Programma:</b>
+<br/>
+<br/>
+<i>13.30 uur: Verzamelen daggasten op trouwlocatie</i>
+<br/>
+De ceremoniemeester zal je ontvangen en je verder wijzen.
+<br/>
+<br/>
+<i>14.00 uur: Aankomst bruidspaar en start ceremonie</i>
+<br/>
+Bij goed weer is de ceremonie buiten in een mooie tuin.
+<br/>
+<br/>
+<i>15.00 uur: Toost en Taart</i>
+<br/>
+Wij snijden het eerste stuk taart aan en daarna zal de taart ‘Corona-Proof’ worden aangesneden en uitgedeeld door het personeel.
+<br/>
+Heb je toch liever geen taart dan geef dit aan bij de ceremoniemeester.
+<br/>
+<br/>
+<i>16.00 uur: Borrel</i>
+<br/>
+Tijdens de borrel willen we graag foto’s met de daggasten maken.
+<br/>
+We zorgen ervoor dat er een mogelijkheid is om met 1.5 meter ertussen foto’s te maken als je dat prettig vind en nog steeds leuke foto’s te krijgen.
+<br/>
+<br/>
+<i>18.00 uur: Diner met daggasten</i>
+<br/>
+Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed weer zal het diner buiten zijn. Voor het menu zie hieronder.
+<br/>
+<br/>
+<i>20.00 uur: Einde diner en mogelijkheid om even op te frissen</i>
+<br/>
 `;
 
 export const NIGHTLY_PROGRAM_TITLE = 'Avondprogramma';

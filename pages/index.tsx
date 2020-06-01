@@ -1,6 +1,9 @@
 // Next
 import Head from 'next/head';
 
+// React
+import { useState } from 'react';
+
 // CSS
 import './styles.global.scss';
 import styles from './index.scss';
@@ -27,6 +30,12 @@ import {
 } from './constants/general';
 
 const Home = () => {
+  const [expandableText, setExpandableText] = useState('');
+
+  const changeText = (expandableText) => {
+    setExpandableText(expandableText);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -39,18 +48,42 @@ const Home = () => {
         <Header />
         <Introduction />
         <div className={styles.expandableContainer}>
-          <div className={styles.expandable}>
-            <ExpandableBox title={DAILY_PROGRAM_TITLE} text={DAILY_PROGRAM_TEXT} />
-          </div>
-          <div className={styles.expandable}>
-            <ExpandableBox title={NIGHTLY_PROGRAM_TITLE} text={NIGHTLY_PROGRAM_TEXT} />
-          </div>
-          <div className={styles.expandable}>
-            <ExpandableBox title={WEDDING_LOCATION_TITLE} text={WEDDING_LOCATION_TEXT} />
-          </div>
-          <div className={styles.expandable}>
-            <ExpandableBox title={EXTRA_INFORMATION_TITLE} text={EXTRA_INFORMATION_TEXT} />
-          </div>
+          <span
+            className={styles.menuSelector}
+            onClick={() => {
+              changeText(DAILY_PROGRAM_TEXT);
+            }}
+          >
+            {DAILY_PROGRAM_TITLE}
+          </span>
+          <span
+            className={styles.menuSelector}
+            onClick={() => {
+              changeText(NIGHTLY_PROGRAM_TEXT);
+            }}
+          >
+            {NIGHTLY_PROGRAM_TITLE}
+          </span>
+          <span
+            className={styles.menuSelector}
+            onClick={() => {
+              changeText(WEDDING_LOCATION_TEXT);
+            }}
+          >
+            {WEDDING_LOCATION_TITLE}
+          </span>
+          <span
+            className={styles.menuSelector}
+            onClick={() => {
+              changeText(EXTRA_INFORMATION_TEXT);
+            }}
+          >
+            {EXTRA_INFORMATION_TITLE}
+          </span>
+
+          {expandableText && (
+            <div className={styles.expandableText} dangerouslySetInnerHTML={{ __html: expandableText }} />
+          )}
         </div>
       </main>
 

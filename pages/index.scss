@@ -17,8 +17,23 @@
   margin: 0 auto;
 }
 
-.expandable {
-  margin-top: 3em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+.menuSelector {
+  margin-top: 2em;
+  padding: 1em;
+  text-decoration: underline;
+  cursor: pointer;
+  letter-spacing: 0.5em;
+  font-size: 1.2em;
+}
+
+.expandableText {
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
 }
