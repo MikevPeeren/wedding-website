@@ -52,6 +52,7 @@ Nature is lethal but it doesn't hold a candle to man.
 
 export const HOME = 'Home';
 export const PHOTO_ALBUM = 'Foto Album';
+export const UPLOAD_PHOTO = 'Upload Foto';
 
 export const FOOTER_FIRST =
   'We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!';

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.uploadButton {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.photoAlbum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoAlbumContainer {
+  padding: 1em;
+  width: 30%;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
