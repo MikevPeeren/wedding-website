@@ -50,6 +50,7 @@ Now we took an oath, that I'm breaking now. We said we'd say it was the snow tha
 Nature is lethal but it doesn't hold a candle to man.
 `;
 
+export const HOME = 'Home';
 export const PHOTO_ALBUM = 'Foto Album';
 
 export const FOOTER_FIRST =

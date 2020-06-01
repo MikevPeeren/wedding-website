@@ -5,10 +5,8 @@ import Head from 'next/head';
 import './styles.global.scss';
 import styles from './index.scss';
 
-// Material UI
-import Button from '@material-ui/core/Button';
-
 // Components
+import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import ExpandableBox from './components/ExpandableBox';
@@ -25,6 +23,7 @@ import {
   WEDDING_LOCATION_TEXT,
   EXTRA_INFORMATION_TITLE,
   EXTRA_INFORMATION_TEXT,
+  HOME,
 } from './constants/general';
 
 const Home = () => {
@@ -36,6 +35,7 @@ const Home = () => {
       </Head>
 
       <main className={styles.mainContainer}>
+        <NavigationBar title={HOME} />
         <Header />
         <Introduction />
         <div className={styles.expandableContainer}>
@@ -51,12 +51,6 @@ const Home = () => {
           <div className={styles.expandable}>
             <ExpandableBox title={EXTRA_INFORMATION_TITLE} text={EXTRA_INFORMATION_TEXT} />
           </div>
-        </div>
-
-        <div className={styles.photosButton}>
-          <Button variant="contained" color="secondary" href="/photos">
-            Photo Album
-          </Button>
         </div>
       </main>
 
