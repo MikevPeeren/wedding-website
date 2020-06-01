@@ -1,15 +1,13 @@
 export const HEADER = 'Bruiloft Mike & Monika';
+export const SUBHEADER = '25 September 2020';
 
-export const INTRODUCTION = `
-Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on
-it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter
-that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're
-in a toy store, because you're here shopping for an infant named Jeb. The path of the righteous man is beset on
-all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity
-and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the
-finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would
-attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon
-thee.
+export const INTRODUCTION_FIRST = `
+Welkom op de website voor onze bruiloft! Ondanks dat het lang onzeker was, zijn we erg blij dat we toch kunnen trouwen op 25 September 2020! Yay!
+Er zijn verschillende dingen voor bruiloften anders dan voorheen, door de maatregelen vanuit de regering en het RIVM. Hieronder vind je hoe wij daar rekening mee hebben gehouden, zodat het voor iedereen duidelijk is en we toch een mooie bruiloft kunnen vieren. Dit leek ons de makkelijkste manier om iedereen de juiste informatie te geven. 
+`;
+export const INTRODUCTION_SECOND = `
+Het belangrijkste is dat we de mooiste dag uit ons leven kunnen vieren met onze familie en vrienden. Je vind in de menu’s hieronder informatie over het dag-, en avondprogramma, maar ook over de trouwlocatie en andere bijzonderheden. Is er iets onduidelijk neem gerust contact op met ons of met onze ceremoniemeester Karin Tufekçi-Verbunt. Haar informatie vind je op de uitnodiging en in het extra informatie menu.
+Onderaan de pagina staat een knop waarmee je de foto’s die je zelf maakt op onze trouwdag kunt uploaden en foto’s kunt downloaden die je wilt bewaren. We zouden het heel fijn vinden als je dat zou willen doen, zodat we onze dag kunnen blijven herinneren! Alle foto’s zijn welkom! 
 `;
 
 export const DAILY_PROGRAM_TITLE = 'Dagprogramma';
@@ -52,4 +50,8 @@ Now we took an oath, that I'm breaking now. We said we'd say it was the snow tha
 Nature is lethal but it doesn't hold a candle to man.
 `;
 
-export const FOOTER = 'Namens Mike & Monika, Bedankt en we kunnen niet wachten om je te zien. Tot 25 September !!';
+export const PHOTO_ALBUM = 'Foto Album';
+
+export const FOOTER_FIRST =
+  'We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!';
+export const FOOTER_SECOND = 'Liefs, Mike & Monika (&Belle)';
