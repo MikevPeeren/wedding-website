@@ -5,6 +5,9 @@ import Head from 'next/head';
 import './styles.global.scss';
 import styles from './index.scss';
 
+// Material UI
+import Button from '@material-ui/core/Button';
+
 // Components
 import Header from './components/Header';
 import Introduction from './components/Introduction';
@@ -48,6 +51,12 @@ const Home = () => {
           <div className={styles.expandable}>
             <ExpandableBox title={EXTRA_INFORMATION_TITLE} text={EXTRA_INFORMATION_TEXT} />
           </div>
+        </div>
+
+        <div className={styles.photosButton}>
+          <Button variant="contained" color="secondary" href="/photos">
+            Photo Album
+          </Button>
         </div>
       </main>
 
