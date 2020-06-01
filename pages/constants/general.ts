@@ -12,12 +12,33 @@ Onderaan de pagina staat een knop waarmee je de foto’s die je zelf maakt op on
 
 export const DAILY_PROGRAM_TITLE = 'Dagprogramma';
 export const DAILY_PROGRAM_TEXT = `
-You think water moves fast? You should see ice.
-It moves like it has a mind. Like it knows it killed the world once and got a taste for murder.
-After the avalanche, it took us a week to climb out.
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.
-Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
-Nature is lethal but it doesn't hold a candle to man.
+Hier vind je de informatie over het programma van de dag en de bijzonderheden. 
+ 
+Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen huishoudens of mensen die elkaar regelmatig zien bij elkaar zijn geplaatst. 
+Stoelen mogen verschoven worden als je dat zelf wilt, maar zorg wel voor de 1.5 meter met anderen.
+Het gangpad is extra breed om ook daar de 1.5  meter ruimte te creëren.
+Tijdens de borrel zijn er extra grote borreltafels zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.
+Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.
+Er staan handdesinfectie middelen waar je gebruik van mag maken.
+ 
+Programma: 
+13.30 uur: Verzamelen daggasten op trouwlocatie
+De ceremoniemeester zal je ontvangen en je verder wijzen. 
+14.00 uur: Aankomst bruidspaar en start ceremonie
+Bij goed weer is de ceremonie buiten in een mooie tuin.  
+15.00 uur: Toost en Taart
+Wij snijden het eerste stuk taart aan en daarna zal de taart ‘Corona-Proof’ worden aangesneden en uitgedeeld door het personeel. Heb je toch liever geen taart dan geef dit aan bij de ceremoniemeester. 
+16.00 uur: Borrel
+Tijdens de borrel willen we graag foto’s met de daggasten maken. We zorgen ervoor dat er een mogelijkheid is om met 1.5 meter ertussen foto’s te maken als je dat prettig vind en nog steeds leuke foto’s te krijgen. 
+18.00 uur: Diner met daggasten
+Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed weer zal het diner buiten zijn. Voor het menu zie hieronder. 
+20.00 uur: Einde diner en mogelijkheid om even op te frissen 
+ 
+Menu diner: 
+Shared Dining concept met als gangen: 
+Voorgerechten: 
+Hoofdgerechten:
+Nagerechten: 
 `;
 
 export const NIGHTLY_PROGRAM_TITLE = 'Avondprogramma';

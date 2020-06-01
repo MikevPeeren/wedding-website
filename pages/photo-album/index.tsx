@@ -16,9 +16,13 @@ import NavigationBar from '../components/NavigationBar';
 import { HEADER, PHOTO_ALBUM, UPLOAD_PHOTO } from '../constants/general';
 
 const PhotoAlbum = () => {
+  const triggerUpload = async () => {
+    document.getElementById('upload-photo').click();
+  };
+
   const uploadImage = async () => {
-    const res: any = await fetch('/api/fileUploader');
-    console.log(res);
+    // const res: any = await fetch('/api/fileUploader');
+    // console.log(res);
   };
 
   return (
@@ -32,15 +36,25 @@ const PhotoAlbum = () => {
         <NavigationBar title={PHOTO_ALBUM} />
         <Header />
         <div className={styles.uploadButton}>
-          <Button
-            variant="contained"
-            color="secondary"
-            onClick={() => {
-              uploadImage();
-            }}
-          >
-            {UPLOAD_PHOTO}
-          </Button>
+          <>
+            <input
+              type="file"
+              id="upload-photo"
+              hidden
+              onChange={() => {
+                uploadImage();
+              }}
+            />
+            <Button
+              variant="contained"
+              color="secondary"
+              onClick={() => {
+                triggerUpload();
+              }}
+            >
+              {UPLOAD_PHOTO}
+            </Button>
+          </>
         </div>
 
         <div className={styles.photoAlbum}>
