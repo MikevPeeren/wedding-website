@@ -18,20 +18,36 @@
 }
 
 .menuSelector {
-  margin-top: 2em;
-  padding: 1em;
+  margin-top: 3em;
+  padding: 2em;
   text-decoration: underline;
   cursor: pointer;
-  letter-spacing: 0.5em;
   font-size: 1.2em;
 }
 
 .expandableText {
+  margin-top: 1.5em;
   text-align: center;
   font-size: 1em;
   letter-spacing: 0.1em;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  position: relative;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.expandableText::before {
+  content: '';
+  background-image: url('/static/engagement.jpeg');
+  background-size: contain;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
 }
 
 ul {
