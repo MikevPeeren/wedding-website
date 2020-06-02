@@ -137,6 +137,8 @@ export const EXTRA_INFORMATION_TEXT = `
 <li>Als je blijft slapen dan kun je inchecken bij aankomst en je spullen eventueel al op je kamer leggen.</li>
 <br/>
 <li>Dit is natuurlijk overbodig; maar kom niet als je klachten hebt zoals beschreven door het RIVM.</li>
+<br />
+<li>We hebben geen officiële dresscode, maar wij zijn dressed to impress en we hopen jij ook</li>
 </ul>
 `;
 
