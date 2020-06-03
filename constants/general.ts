@@ -146,4 +146,4 @@ export const HOME = 'Home';
 export const PHOTO_ALBUM = 'Foto Album';
 export const UPLOAD_PHOTO = 'Upload Foto';
 
-export const FOOTER_TEXT = 'Copyright blablabla';
+export const FOOTER_TEXT = '🐾';
