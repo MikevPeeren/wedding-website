@@ -12,7 +12,6 @@ import styles from './index.scss';
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
-import ExpandableBox from './components/ExpandableBox';
 import Footer from './components/Footer';
 
 // Constants
@@ -27,7 +26,7 @@ import {
   EXTRA_INFORMATION_TITLE,
   EXTRA_INFORMATION_TEXT,
   HOME,
-} from './constants/general';
+} from '../constants/general';
 
 const Home = () => {
   const [expandableText, setExpandableText] = useState('');

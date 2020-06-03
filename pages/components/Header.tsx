@@ -2,7 +2,7 @@
 import styles from './Header.scss';
 
 // Constants
-import { HEADER, SUBHEADER } from '../constants/general';
+import { HEADER, SUBHEADER } from '../../constants/general';
 
 const Header = () => {
   return (

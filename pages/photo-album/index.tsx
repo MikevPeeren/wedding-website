@@ -13,7 +13,7 @@ import Header from '../components/Header';
 import NavigationBar from '../components/NavigationBar';
 
 // Constants
-import { HEADER, PHOTO_ALBUM, UPLOAD_PHOTO } from '../constants/general';
+import { HEADER, PHOTO_ALBUM, UPLOAD_PHOTO } from '../../constants/general';
 
 const PhotoAlbum = () => {
   const triggerUpload = async () => {

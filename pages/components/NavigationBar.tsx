@@ -12,7 +12,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 // Constants
-import { HOME, PHOTO_ALBUM } from '../constants/general';
+import { HOME, PHOTO_ALBUM } from '../../constants/general';
 
 interface NavigationBarProps {
   title: string;
