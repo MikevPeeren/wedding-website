@@ -29,7 +29,7 @@ const PhotoAlbum = () => {
     <div className={styles.container}>
       <Head>
         <title>{HEADER}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/static/favicon.ico" />
       </Head>
 
       <main className={styles.mainContainer}>
