@@ -79,11 +79,13 @@ const Home = () => {
           >
             {EXTRA_INFORMATION_TITLE}
           </span>
-
-          {expandableText && (
-            <div className={styles.expandableText} dangerouslySetInnerHTML={{ __html: expandableText }} />
-          )}
         </div>
+
+        {expandableText && (
+          <div className={styles.expandableContainer}>
+            <div className={styles.expandableText} dangerouslySetInnerHTML={{ __html: expandableText }} />
+          </div>
+        )}
       </main>
 
       <footer>

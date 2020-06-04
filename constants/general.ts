@@ -103,7 +103,7 @@ export const NIGHTLY_PROGRAM_TEXT = `
 
 export const WEDDING_LOCATION_TITLE = 'Trouwlocatie';
 export const WEDDING_LOCATION_TEXT = `
-<img src="static/kloosternieuwkerk.jpg" style="z-index:999; position:relative"/>
+<img src="static/kloosternieuwkerk.jpg" style="z-index:999; position:relative; width:100%; max-width:500px; height:auto;"/>
 
 <ul>
 <li>We trouwen bij Klooster Nieuwkerk Adres: Nieuwkerk 2, 5051 PN Goirle  https://kloosternieuwkerkgoirle.nl/</li>
