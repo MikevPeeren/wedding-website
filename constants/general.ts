@@ -147,3 +147,16 @@ export const PHOTO_ALBUM = 'Foto Album';
 export const UPLOAD_PHOTO = 'Upload Foto';
 
 export const FOOTER_TEXT = '🐾';
+
+export const AVAILABILITY = 'R.S.V.P';
+export const AVAILABILITY_HEADER = 'Aanwezigheidsmelding 🥂';
+export const AVAILABILITY_TEXT = 'Geef hieronder aan of je komt en met hoeveel personen.';
+
+export const LABEL_NAME = 'Naam';
+export const LABEL_EMAIL = 'Email Address';
+export const LABEL_PERSONS = 'Aantal personen';
+export const LABEL_THERE = 'Ik ben erbij';
+export const LABEL_NOT_THERE = 'Ik ben er niet bij';
+
+export const FORM_CANCEL = 'Annuleren';
+export const FORM_SUBMIT = 'Aanmelden';

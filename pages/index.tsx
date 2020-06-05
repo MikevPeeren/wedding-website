@@ -13,6 +13,7 @@ import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
+import Availability from './components/Availablility';
 
 // Constants
 import {
@@ -46,6 +47,9 @@ const Home = () => {
         <NavigationBar title={HOME} />
         <Header />
         <Introduction />
+        <div className={styles.availabilityButton}>
+          <Availability />
+        </div>
         <div className={styles.expandableContainer}>
           <span
             className={styles.menuSelector}
