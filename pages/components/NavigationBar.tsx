@@ -20,8 +20,6 @@ interface NavigationBarProps {
 const NavigationBar = ({ title }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
-  console.log(anchorEl);
-
   const handleMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };

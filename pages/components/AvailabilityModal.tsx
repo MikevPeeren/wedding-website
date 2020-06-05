@@ -1,3 +1,6 @@
+// React
+import { useState } from 'react';
+
 // Material UI
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -32,6 +35,48 @@ interface AvailabilityModalProps {
   handleClose: Function;
 }
 const AvailabilityModal = ({ open, handleClose }) => {
+  const [name, setName] = useState(null);
+  const [nameError, setNameError] = useState(false);
+  const [email, setEmail] = useState(null);
+  const [emailError, setEmailError] = useState(false);
+  const [amountOfPersons, setAmountOfPersons] = useState(null);
+  const [amountOfPersonsError, setAmountOfPersonsError] = useState(false);
+  const [checkboxComing, setCheckboxComing] = useState(false);
+  const [checkboxNotComing, setCheckboxNotComing] = useState(false);
+
+  const handleSubmit = () => {
+    if (!name) setNameError(true);
+    if (!email) setEmailError(true);
+    if (!amountOfPersons) setAmountOfPersonsError(true);
+  };
+
+  const handleNameChange = (event) => {
+    setNameError(false);
+    setName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmailError(false);
+    setEmail(event.target.value);
+  };
+
+  const handleAmountOfPersons = (event) => {
+    setAmountOfPersonsError(false);
+    setAmountOfPersons(event.target.value);
+  };
+
+  const handleCheckboxComingChange = (event) => {
+    setCheckboxComing(event.target.checked);
+    setCheckboxNotComing(false);
+  };
+
+  const handleCheckboxNotComingChange = (event) => {
+    setCheckboxNotComing(event.target.checked);
+    setCheckboxComing(false);
+  };
+
+  console.log(checkboxComing);
+
   return (
     <Dialog
       open={open}
@@ -42,28 +87,78 @@ const AvailabilityModal = ({ open, handleClose }) => {
       <DialogTitle id="form-dialog-title">{AVAILABILITY_HEADER}</DialogTitle>
       <DialogContent dividers>
         <DialogContentText>{AVAILABILITY_TEXT}</DialogContentText>
-        <div>
-          <TextField autoFocus margin="dense" id="name" label={LABEL_NAME} type="string" fullWidth />
-          <TextField margin="dense" id="email" label={LABEL_EMAIL} type="email" fullWidth />
-        </div>
+        <TextField
+          id="name"
+          margin="dense"
+          autoFocus
+          error={nameError}
+          helperText={nameError && 'Dit veld moet ingevuld zijn'}
+          label={LABEL_NAME}
+          type="string"
+          onChange={(event) => {
+            handleNameChange(event);
+          }}
+          fullWidth
+        />
+        <TextField
+          id="email"
+          margin="dense"
+          error={emailError}
+          helperText={emailError && 'Dit veld moet ingevuld zijn'}
+          label={LABEL_EMAIL}
+          type="email"
+          onChange={(event) => {
+            handleEmailChange(event);
+          }}
+          fullWidth
+        />
         <br />
-        <TextField margin="dense" id="aantal personen" label={LABEL_PERSONS} type="number" />
+        <br />
+        <TextField
+          id="amountOfPersons"
+          margin="dense"
+          error={amountOfPersonsError}
+          helperText={amountOfPersonsError && 'Dit veld moet ingevuld zijn'}
+          label={LABEL_PERSONS}
+          type="number"
+          onChange={(event) => {
+            handleAmountOfPersons(event);
+          }}
+        />
         <br />
         <br />
         <FormControlLabel
           control={
-            <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} id="checkboxComing" name="checkboxComing" />
+            <Checkbox
+              checked={checkboxComing}
+              icon={<FavoriteBorder />}
+              checkedIcon={<Favorite />}
+              id="checkboxComing"
+              name="checkboxComing"
+              onChange={(event) => {
+                handleCheckboxComingChange(event);
+              }}
+            />
           }
           label={LABEL_THERE}
         />
         <FormControlLabel
-          control={<Checkbox id="checkboxNotComing" name="checkboxNotComing" />}
+          control={
+            <Checkbox
+              checked={checkboxNotComing}
+              id="checkboxNotComing"
+              name="checkboxNotComing"
+              onChange={(event) => {
+                handleCheckboxNotComingChange(event);
+              }}
+            />
+          }
           label={LABEL_NOT_THERE}
         />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>{FORM_CANCEL}</Button>
-        <Button variant="contained" color="secondary" onClick={handleClose}>
+        <Button variant="contained" color="secondary" onClick={handleSubmit}>
           {FORM_SUBMIT}
         </Button>
       </DialogActions>
