@@ -4,6 +4,9 @@ import { useState } from 'react';
 // Material UI
 import Button from '@material-ui/core/Button';
 
+// CSS
+import styles from './Availability.scss';
+
 // Components
 import AvailabilityModal from './AvailabilityModal';
 
@@ -22,10 +25,12 @@ const Availability = () => {
   };
 
   return (
-    <>
+    <div className={styles.availability}>
       <Button
         variant="contained"
         color="secondary"
+        size="large"
+        fullWidth={true}
         onClick={() => {
           handleOpen();
         }}
@@ -33,7 +38,7 @@ const Availability = () => {
         {AVAILABILITY}
       </Button>
       <AvailabilityModal open={open} handleClose={handleClose} />
-    </>
+    </div>
   );
 };
 export default Availability;
