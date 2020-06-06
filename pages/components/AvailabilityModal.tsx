@@ -28,6 +28,8 @@ import {
   LABEL_NOT_THERE,
   FORM_CANCEL,
   FORM_SUBMIT,
+  FIELD_EMPTY,
+  INVALID_EMAIL,
 } from '../../constants/general';
 
 interface AvailabilityModalProps {
@@ -49,16 +51,16 @@ const AvailabilityModal = ({ open, handleClose }) => {
     if (!name) setNameError(true);
     if (!email) {
       setEmailError(true);
-      setEmailErrorText('Dit veld moet ingevuld zijn');
+      setEmailErrorText(FIELD_EMPTY);
     }
     if (!amountOfPersons) setAmountOfPersonsError(true);
 
     const simpleEmailValidation = /\S+@\S+\.\S+/;
     const validEmail = simpleEmailValidation.test(email);
 
-    if (!validEmail) {
+    if (email && !validEmail) {
       setEmailError(true);
-      setEmailErrorText('Dit is geen valide email');
+      setEmailErrorText(INVALID_EMAIL);
     }
 
     if (nameError || emailError || amountOfPersonsError) return;
@@ -106,7 +108,7 @@ const AvailabilityModal = ({ open, handleClose }) => {
           margin="dense"
           autoFocus
           error={nameError}
-          helperText={nameError && 'Dit veld moet ingevuld zijn'}
+          helperText={nameError && FIELD_EMPTY}
           label={LABEL_NAME}
           type="string"
           onChange={(event) => {
@@ -132,7 +134,7 @@ const AvailabilityModal = ({ open, handleClose }) => {
           id="amountOfPersons"
           margin="dense"
           error={amountOfPersonsError}
-          helperText={amountOfPersonsError && 'Dit veld moet ingevuld zijn'}
+          helperText={amountOfPersonsError && FIELD_EMPTY}
           label={LABEL_PERSONS}
           type="number"
           onChange={(event) => {

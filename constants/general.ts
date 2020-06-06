@@ -160,3 +160,6 @@ export const LABEL_NOT_THERE = 'Ik ben er niet bij';
 
 export const FORM_CANCEL = 'Annuleren';
 export const FORM_SUBMIT = 'Aanmelden';
+
+export const FIELD_EMPTY = 'Dit veld moet ingevuld zijn';
+export const INVALID_EMAIL = 'Dit is geen valide email';
