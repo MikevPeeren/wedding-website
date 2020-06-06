@@ -48,6 +48,10 @@ const AvailabilityModal = ({ open, handleClose }) => {
     if (!name) setNameError(true);
     if (!email) setEmailError(true);
     if (!amountOfPersons) setAmountOfPersonsError(true);
+
+    if (nameError || emailError || amountOfPersonsError) return;
+
+    fetch(`/api/availabilityHandler/${name}/${email}/${amountOfPersons}/${checkboxComing}`);
   };
 
   const handleNameChange = (event) => {
@@ -74,8 +78,6 @@ const AvailabilityModal = ({ open, handleClose }) => {
     setCheckboxNotComing(event.target.checked);
     setCheckboxComing(false);
   };
-
-  console.log(checkboxComing);
 
   return (
     <Dialog
