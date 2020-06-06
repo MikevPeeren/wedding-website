@@ -39,6 +39,7 @@ const AvailabilityModal = ({ open, handleClose }) => {
   const [nameError, setNameError] = useState(false);
   const [email, setEmail] = useState(null);
   const [emailError, setEmailError] = useState(false);
+  const [emailErrorText, setEmailErrorText] = useState('');
   const [amountOfPersons, setAmountOfPersons] = useState(null);
   const [amountOfPersonsError, setAmountOfPersonsError] = useState(false);
   const [checkboxComing, setCheckboxComing] = useState(true);
@@ -46,8 +47,19 @@ const AvailabilityModal = ({ open, handleClose }) => {
 
   const handleSubmit = () => {
     if (!name) setNameError(true);
-    if (!email) setEmailError(true);
+    if (!email) {
+      setEmailError(true);
+      setEmailErrorText('Dit veld moet ingevuld zijn');
+    }
     if (!amountOfPersons) setAmountOfPersonsError(true);
+
+    const simpleEmailValidation = /\S+@\S+\.\S+/;
+    const validEmail = simpleEmailValidation.test(email);
+
+    if (!validEmail) {
+      setEmailError(true);
+      setEmailErrorText('Dit is geen valide email');
+    }
 
     if (nameError || emailError || amountOfPersonsError) return;
 
@@ -106,7 +118,7 @@ const AvailabilityModal = ({ open, handleClose }) => {
           id="email"
           margin="dense"
           error={emailError}
-          helperText={emailError && 'Dit veld moet ingevuld zijn'}
+          helperText={emailError && emailErrorText}
           label={LABEL_EMAIL}
           type="email"
           onChange={(event) => {
