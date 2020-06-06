@@ -41,7 +41,7 @@ const AvailabilityModal = ({ open, handleClose }) => {
   const [emailError, setEmailError] = useState(false);
   const [amountOfPersons, setAmountOfPersons] = useState(null);
   const [amountOfPersonsError, setAmountOfPersonsError] = useState(false);
-  const [checkboxComing, setCheckboxComing] = useState(false);
+  const [checkboxComing, setCheckboxComing] = useState(true);
   const [checkboxNotComing, setCheckboxNotComing] = useState(false);
 
   const handleSubmit = () => {
