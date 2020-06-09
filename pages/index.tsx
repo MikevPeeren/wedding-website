@@ -36,6 +36,8 @@ const Home = () => {
     setExpandableText(expandableText);
   };
 
+  console.log(process.env.test);
+
   return (
     <div className={styles.container}>
       <Head>
