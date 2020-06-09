@@ -7,19 +7,18 @@ import {
   INTRODUCTION_SECOND,
   INTRODUCTION_THIRD,
   INTRODUCTION_FOURTH,
+  INTRODUCTION_FIFTH,
 } from '../../constants/general';
 
 const Introduction = () => {
   return (
-    <>
-      <p className={styles.introductionFirst}>{INTRODUCTION_FIRST}</p>
-      <br />
-      <p className={styles.introductionSecond}>{INTRODUCTION_SECOND}</p>
-      <br />
-      <p className={styles.introductionSecond}>{INTRODUCTION_THIRD}</p>
-      <br />
-      <p className={styles.introductionSecond}>{INTRODUCTION_FOURTH}</p>
-    </>
+    <div className={styles.introduction}>
+      <p className={styles.introduction__first}>{INTRODUCTION_FIRST}</p>
+      <p className={styles.introduction__second}>{INTRODUCTION_SECOND}</p>
+      <p className={styles.introduction__third}>{INTRODUCTION_THIRD}</p>
+      <p className={styles.introduction__fourth}>{INTRODUCTION_FOURTH}</p>
+      <p className={styles.introduction__fifth}>{INTRODUCTION_FIFTH}</p>
+    </div>
   );
 };
 

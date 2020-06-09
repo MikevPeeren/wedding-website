@@ -3,16 +3,19 @@ export const SUBHEADER = '25 September 2020';
 
 export const INTRODUCTION_FIRST = `
 Welkom op de website voor onze bruiloft! Ondanks dat het lang onzeker was, zijn we erg blij dat we toch kunnen trouwen op 25 September 2020! Yay!
-Er zijn verschillende dingen voor bruiloften anders dan voorheen, door de maatregelen vanuit de regering en het RIVM. Hieronder vind je hoe wij daar rekening mee hebben gehouden, zodat het voor iedereen duidelijk is en we toch een mooie bruiloft kunnen vieren. Dit leek ons de makkelijkste manier om iedereen de juiste informatie te geven. 
+Er zijn verschillende dingen anders dan voorheen, door de maatregelen vanuit de regering en het RIVM. Hieronder vindt je hoe wij daar rekening mee hebben gehouden zodat we een mooie bruiloft kunnen vieren. Dit leek ons de makkelijkste manier om iedereen de juiste informatie te geven.
 `;
 export const INTRODUCTION_SECOND = `
-Het belangrijkste is dat we de mooiste dag uit ons leven kunnen vieren met onze familie en vrienden. Je vind in de menu’s hieronder informatie over het dag-, en avondprogramma, maar ook over de trouwlocatie en andere bijzonderheden. Is er iets onduidelijk neem gerust contact op met ons of met onze ceremoniemeester Karin Tufekçi-Verbunt. Haar informatie vind je op de uitnodiging en in het extra informatie menu.
-Onderaan de pagina staat een knop waarmee je de foto’s die je zelf maakt op onze trouwdag kunt uploaden en foto’s kunt downloaden die je wilt bewaren. We zouden het heel fijn vinden als je dat zou willen doen, zodat we onze dag kunnen blijven herinneren! Alle foto’s zijn welkom! 
-`;
+Het belangrijkste is dat we de mooiste dag uit ons leven kunnen vieren met onze familie en vrienden. Onderaan deze tekst staat een knop waarmee je aan kunt geven of je wel of niet komt. We zouden het fijn vinden als je dat doet.
+Je vind in de menu’s hieronder informatie over het dag-, en avondprogramma, maar ook over de trouwlocatie en andere bijzonderheden.`;
 export const INTRODUCTION_THIRD = `
-We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!
+Is er iets onduidelijk neem gerust contact met ons op of met onze ceremoniemeester Karin Tufekçi-Verbunt. Haar informatie vind je in onder het extra informatie kopje. 
+In het menu linksboven kun je naar een foto album. Hierin kun je de foto’s die je zelf maakt op onze trouwdag uploaden en kun je foto’s downloaden die je wilt bewaren. We zouden het heel fijn vinden als je dat zou willen doen, zodat we onze dag kunnen blijven herinneren! Alle foto’s zijn welkom! 
 `;
 export const INTRODUCTION_FOURTH = `
+We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!
+`;
+export const INTRODUCTION_FIFTH = `
 Liefs, Mike & Monika (&Belle)
 `;
 
