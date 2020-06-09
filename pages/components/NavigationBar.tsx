@@ -17,7 +17,7 @@ interface NavigationBarProps {
   title: string;
 }
 
-const NavigationBar = ({ title }) => {
+const NavigationBar: React.FC<NavigationBarProps> = ({ title }): React.ReactElement => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
   const handleMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
