@@ -9,3 +9,83 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+@media only screen and (min-width: 601px) {
+  h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 0.8em;
+    letter-spacing: 0.5em;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  p {
+    width: 80%;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-break: auto;
+  }
+
+  ul {
+    width: 80%;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  img {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 0.8em;
+    letter-spacing: 0.5em;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  p {
+    width: 90%;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-break: auto;
+  }
+
+  ul {
+    width: 90%;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  img {
+    width: 80%;
+  }
+}

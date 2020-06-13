@@ -1,20 +1,30 @@
-export const HEADER = 'Bruiloft Mike & Monika';
+export const HEADER = 'Bruiloft';
+export const HEADER_MIKE_AND_MONIKA = 'Mike & Monika';
 export const SUBHEADER = '25 September 2020';
 
 export const INTRODUCTION_FIRST = `
-Welkom op de website voor onze bruiloft! Ondanks dat het lang onzeker was, zijn we erg blij dat we toch kunnen trouwen op 25 September 2020! Yay!
-Er zijn verschillende dingen anders dan voorheen, door de maatregelen vanuit de regering en het RIVM. Hieronder vindt je hoe wij daar rekening mee hebben gehouden zodat we een mooie bruiloft kunnen vieren. Dit leek ons de makkelijkste manier om iedereen de juiste informatie te geven.
+Welkom op de website voor onze <b>bruiloft!</b> Ondanks dat het lang onzeker was, zijn we erg blij dat we toch kunnen trouwen op <b>25 September 2020!</b> Yay!
+Er zijn verschillende dingen anders dan voorheen, door de <b>maatregelen</b> vanuit de regering en het RIVM.
+<b>Hieronder</b> vindt je hoe wij daar rekening mee hebben gehouden zodat we een <b>mooie bruiloft</b> kunnen vieren.
+Dit leek ons de makkelijkste manier om <b>iedereen</b> de juiste informatie te geven.
 `;
 export const INTRODUCTION_SECOND = `
-Het belangrijkste is dat we de mooiste dag uit ons leven kunnen vieren met onze familie en vrienden. Onderaan deze tekst staat een knop waarmee je aan kunt geven of je wel of niet komt. We zouden het fijn vinden als je dat doet.
-Je vind in de menu’s hieronder informatie over het dag-, en avondprogramma, maar ook over de trouwlocatie en andere bijzonderheden.`;
+Het <b>belangrijkste</b> is dat we de <b>mooiste</b> dag uit ons leven kunnen vieren met onze familie en vrienden.
+Onderaan deze tekst staat een knop waarmee je aan kunt geven of je <b>wel of niet</b> komt. We zouden het fijn vinden als je dat doet.
+Verder vind je op deze pagina informatie over het <b>dag-, en avondprogramma</b>, maar ook over de <b>trouwlocatie</b> en andere bijzonderheden.`;
+
 export const INTRODUCTION_THIRD = `
-Is er iets onduidelijk neem gerust contact met ons op of met onze ceremoniemeester Karin Tufekçi-Verbunt. Haar informatie vind je in onder het extra informatie kopje. 
-In het menu linksboven kun je naar een foto album. Hierin kun je de foto’s die je zelf maakt op onze trouwdag uploaden en kun je foto’s downloaden die je wilt bewaren. We zouden het heel fijn vinden als je dat zou willen doen, zodat we onze dag kunnen blijven herinneren! Alle foto’s zijn welkom! 
+Is er iets <b>onduidelijk</b> neem gerust contact met ons op of met onze <b>ceremoniemeester</b> Karin Tufekçi-Verbunt.
+Haar informatie vind je in onder het <b>extra informatie</b> kopje.
+In het menu linksboven kun je naar een <b>foto album</b>.
+Hierin kun je de foto’s die je zelf maakt op onze trouwdag <b>uploaden</b> en kun je foto’s <b>downloaden</b> die je wilt bewaren.
+We zouden het <b>heel fijn</b> vinden als je dat zou willen doen, zodat we onze dag kunnen blijven <b>herinneren!</b> Alle foto’s zijn welkom!
 `;
+
 export const INTRODUCTION_FOURTH = `
-We zien je graag op vrijdag 25 september zodat we samen kunnen proosten op een mooie toekomst!
+We zien je graag op <b>vrijdag 25 september</b> zodat we samen kunnen proosten op een <b>mooie toekomst</b>!
 `;
+
 export const INTRODUCTION_FIFTH = `
 Liefs, Mike & Monika (&Belle)
 `;
@@ -24,14 +34,15 @@ export const DAILY_PROGRAM_TEXT = `
 <h4>Hier vind je de informatie over het programma van de dag en de bijzonderheden.</h4>
 
 <ul>
-<li>Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen huishoudens of mensen die elkaar regelmatig zien bij elkaar zijn geplaatst.</li>
-<li>Stoelen mogen verschoven worden als je dat zelf wilt, maar zorg wel voor de 1.5 meter met anderen.</li>
-<li>Het gangpad is extra breed om ook daar de 1.5  meter ruimte te creëren.</li>
-<li>Tijdens de borrel zijn er extra grote borreltafels zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.</li>
-<li>Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.</li>
-<li>Er staan handdesinfectie middelen waar je gebruik van mag maken.</li>
+<li>Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen <b>huishoudens</b> of mensen die elkaar regelmatig zien bij <b>elkaar</b> zijn geplaatst.</li>
+<li>Stoelen mogen <b>verschoven</b> worden als je dat zelf wilt, maar zorg wel voor de <b>1.5 meter</b> met anderen.</li>
+<li>Het gangpad is <b>extra breed</b> om ook daar de <b>1.5 meter</b> ruimte te creëren.</li>
+<li>Tijdens de <b>borrel</b> zijn er extra grote borreltafels zodat je bij <b>elkaar</b> kunt staan en nog voldoende <b>afstand</b> kunt houden.</li>
+<li>Spreek <b>elkaar</b> gerust op een vriendelijke manier aan wanneer je te <b>weinig ruimte</b> ervaart.</li>
+<li>Er staan <b>handinfectie</b> middelen waar je gebruik van mag maken.</li>
 </ul>
 
+<p>
 <b>Programma:</b>
 <br/>
 <br/>
@@ -66,6 +77,7 @@ Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed w
 <br/>
 <i>20.00 uur: Einde diner en mogelijkheid om even op te frissen</i>
 <br/>
+</p>
 `;
 
 export const NIGHTLY_PROGRAM_TITLE = 'Avondprogramma';

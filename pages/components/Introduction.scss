@@ -3,16 +3,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-
-  &__first,
-  &__second,
-  &__third,
-  &__fourth,
-  &__fifth {
-    width: 70%;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    text-align: center;
-  }
 }

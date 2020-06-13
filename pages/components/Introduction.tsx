@@ -13,11 +13,11 @@ import {
 const Introduction = () => {
   return (
     <div className={styles.introduction}>
-      <p className={styles.introduction__first}>{INTRODUCTION_FIRST}</p>
-      <p className={styles.introduction__second}>{INTRODUCTION_SECOND}</p>
-      <p className={styles.introduction__third}>{INTRODUCTION_THIRD}</p>
-      <p className={styles.introduction__fourth}>{INTRODUCTION_FOURTH}</p>
-      <p className={styles.introduction__fifth}>{INTRODUCTION_FIFTH}</p>
+      <p dangerouslySetInnerHTML={{ __html: INTRODUCTION_FIRST }} />
+      <p dangerouslySetInnerHTML={{ __html: INTRODUCTION_SECOND }} />
+      <p dangerouslySetInnerHTML={{ __html: INTRODUCTION_THIRD }} />
+      <p dangerouslySetInnerHTML={{ __html: INTRODUCTION_FOURTH }} />
+      <p dangerouslySetInnerHTML={{ __html: INTRODUCTION_FIFTH }} />
     </div>
   );
 };

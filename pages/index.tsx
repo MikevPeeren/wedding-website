@@ -2,7 +2,7 @@
 import Head from 'next/head';
 
 // React
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 // CSS
 import './styles.global.scss';
@@ -14,6 +14,7 @@ import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
 import Availability from './components/Availablility';
+import DailyProgram from './components/DailyProgram';
 
 // Constants
 import {
@@ -36,32 +37,54 @@ const Home = () => {
     setExpandableText(expandableText);
   };
 
-  console.log(process.env.test);
+  const isServer = typeof window === 'undefined';
+  const WOW = !isServer ? require('wowjs') : null;
+
+  useEffect(() => {
+    //@ts-ignore
+    window.wow = new WOW.WOW({
+      live: false,
+    });
+
+    //@ts-ignore
+    window.wow.init();
+  });
 
   return (
     <div className={styles.container}>
       <Head>
         <title>{HEADER}</title>
         <link rel="icon" href="/static/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
       </Head>
 
-      <main className={styles.mainContainer}>
+      <main className={styles.container__main}>
         <NavigationBar title={HOME} />
         <Header />
-        <Introduction />
-        <div className={styles.availabilityButton}>
-          <Availability />
+        <div className={styles.container__imageDiv}>
+          <img className={styles.container__image} src="/static/bellethinking.jpg"></img>
         </div>
-        <div className={styles.expandableContainer}>
-          <span
+        <Introduction />
+        <Availability />
+        <img className={styles.container__dailyProgramImage} src="/static/mr&mrs.jpg"></img>
+
+        <div className="wow fadeInLeft animate__delay-5s">
+          <DailyProgram />
+        </div>
+        {/* <div
+          className={`wow fadeInLeft animate__delay-5s ${styles.container__dailyProgramText}`}
+          dangerouslySetInnerHTML={{ __html: DAILY_PROGRAM_TEXT }}
+        /> */}
+        {/* <div className={`wow fadeInLeft animate__delay-2s ${styles.expandableContainer}`}> */}
+        {/* <span
             className={styles.menuSelector}
             onClick={() => {
               changeText(DAILY_PROGRAM_TEXT);
             }}
           >
             {DAILY_PROGRAM_TITLE}
-          </span>
-          <span
+          </span> */}
+        {/* <span
             className={styles.menuSelector}
             onClick={() => {
               changeText(NIGHTLY_PROGRAM_TEXT);
@@ -84,14 +107,14 @@ const Home = () => {
             }}
           >
             {EXTRA_INFORMATION_TITLE}
-          </span>
-        </div>
+          </span> */}
+        {/* </div> */}
 
-        {expandableText && (
+        {/* {expandableText && (
           <div className={styles.expandableContainer}>
             <div className={styles.expandableText} dangerouslySetInnerHTML={{ __html: expandableText }} />
           </div>
-        )}
+        )} */}
       </main>
 
       <footer>

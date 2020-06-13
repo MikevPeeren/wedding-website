@@ -14,8 +14,6 @@ const filename = 'availability.json';
 const localFileDestination = `./public/${filename}`;
 
 export default (request, response) => {
-  console.log(request.query);
-
   const downloadFile = async () => {
     const options = {
       destination: localFileDestination,
