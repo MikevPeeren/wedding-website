@@ -9,7 +9,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
     const { name, email, amountOfPersons, checkboxComing } = request.body;
 
     try {
-      // await sendEmail({ name, email, amountOfPersons, coming: checkboxComing });
+      await sendEmail({ name, email, amountOfPersons, coming: checkboxComing });
     } catch (error) {
       return response.status(404).end();
     }
