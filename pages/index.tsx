@@ -22,12 +22,6 @@ import WeddingLocation from './components/content/WeddingLocation';
 import { HEADER, EXTRA_INFORMATION_TITLE, EXTRA_INFORMATION_TEXT, HOME } from '../constants/general';
 
 const Home = () => {
-  const [expandableText, setExpandableText] = useState('');
-
-  const changeText = (expandableText) => {
-    setExpandableText(expandableText);
-  };
-
   const isServer = typeof window === 'undefined';
   const AOS = !isServer ? require('aos') : null;
 
@@ -84,26 +78,12 @@ const Home = () => {
           <span
             className={styles.menuSelector}
             onClick={() => {
-              changeText(WEDDING_LOCATION_TEXT);
-            }}
-          >
-            {WEDDING_LOCATION_TITLE}
-          </span>
-          <span
-            className={styles.menuSelector}
-            onClick={() => {
               changeText(EXTRA_INFORMATION_TEXT);
             }}
           >
             {EXTRA_INFORMATION_TITLE}
           </span> */}
         {/* </div> */}
-
-        {/* {expandableText && (
-          <div className={styles.expandableContainer}>
-            <div className={styles.expandableText} dangerouslySetInnerHTML={{ __html: expandableText }} />
-          </div>
-        )} */}
       </main>
 
       <footer>
