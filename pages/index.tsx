@@ -42,7 +42,7 @@ const Home = () => {
         <NavigationBar title={HOME} />
         <div className={styles.container__header}>
           <Header />
-          <div className={styles.container__imageDiv}>
+          <div>
             <img className={styles.container__image} src="/static/bellethinking.jpg"></img>
           </div>
         </div>

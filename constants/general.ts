@@ -138,7 +138,7 @@ Zij heeft een overzicht van de <b>beschikbare kamers</b> en de bijbehorende kost
 <li>Wij blijven <b>in ieder geval</b> slapen in de <b>bruidssuite</b> en zullen zorgen voor <b>paracetamol</b> tijdens het ontbijt.</li>
 <li>Als je blijft slapen dan kun je <b>inchecken</b> bij aankomst en je spullen eventueel al op <b>je kamer</b> leggen.</li>
 <li>Dit is natuurlijk overbodig; maar <b>kom niet</b> als je <b>klachten</b> hebt zoals beschreven door het RIVM.</li>
-<li>We hebben <b>geen officiële dresscode</b>, maar wij zijn dressed to impress en we hopen jij ook</li>
+<li>We hebben <b>geen officiële dresscode</b>, maar wij zijn dressed to impress en we hopen jij ook.</li>
 </ul>
 `;
 

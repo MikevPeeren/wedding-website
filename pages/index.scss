@@ -6,7 +6,16 @@
   &__main {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  &__header {
+    display: flex;
+    flex-flow: column wrap;
     flex: 1;
+    margin-bottom: 4em;
   }
 
   &__imageDiv {
