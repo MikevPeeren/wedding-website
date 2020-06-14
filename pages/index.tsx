@@ -9,7 +9,6 @@ import './styles.global.scss';
 import styles from './index.scss';
 
 // Components
-import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
@@ -39,7 +38,6 @@ const Home = () => {
       </Head>
 
       <main className={styles.container__main}>
-        {/* <NavigationBar title={HOME} /> */}
         <div className={styles.container__header}>
           <Header />
           <div>

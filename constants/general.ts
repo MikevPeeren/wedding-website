@@ -162,3 +162,6 @@ export const FORM_SUBMIT = 'Aanmelden';
 
 export const FIELD_EMPTY = 'Dit veld moet ingevuld zijn';
 export const INVALID_EMAIL = 'Dit is geen valide email';
+
+export const ERROR_TEXT = 'Er is iets misgegaan, probeer het nogmaals of neem contact met ons op.';
+export const SUCCESS_TEXT = 'Dankjewel voor je reactie, we hebben je aanmelding/annulering ontvangen.';

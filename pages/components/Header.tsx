@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <h1 className={styles.header}>{HEADER_BEFORE}</h1>
       <h1 className={styles.header__MikeAndMonika}>{HEADER_MIKE_AND_MONIKA}</h1>
-      <h2 className={styles.subHeader}>{SUBHEADER}</h2>
+      <h2 className={styles.header__subHeader}>{SUBHEADER}</h2>
     </>
   );
 };
