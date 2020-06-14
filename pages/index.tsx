@@ -17,9 +17,10 @@ import Availability from './components/Availablility';
 import DailyProgram from './components/content/DailyProgram';
 import NightlyProgram from './components/content/NightlyProgram';
 import WeddingLocation from './components/content/WeddingLocation';
+import ExtraInformation from './components/content/ExtraInformation';
 
 // Constants
-import { HEADER, EXTRA_INFORMATION_TITLE, EXTRA_INFORMATION_TEXT, HOME } from '../constants/general';
+import { HEADER, HOME } from '../constants/general';
 
 const Home = () => {
   const isServer = typeof window === 'undefined';
@@ -72,18 +73,14 @@ const Home = () => {
           <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
             <WeddingLocation />
           </div>
-        </div>
 
-        {/*
-          <span
-            className={styles.menuSelector}
-            onClick={() => {
-              changeText(EXTRA_INFORMATION_TEXT);
-            }}
-          >
-            {EXTRA_INFORMATION_TITLE}
-          </span> */}
-        {/* </div> */}
+          <div className={styles.container__nightlyProgramImage}>
+            <img src="/static/butterfly.jpg"></img>
+          </div>
+          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
+            <ExtraInformation />
+          </div>
+        </div>
       </main>
 
       <footer>

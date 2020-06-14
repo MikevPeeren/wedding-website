@@ -128,22 +128,16 @@ Volg de slinger weg en ga aan het <b>einde rechtsaf</b>. Het is dan nog maar een
 
 export const EXTRA_INFORMATION_TITLE = 'Extra informatie';
 export const EXTRA_INFORMATION_TEXT = `
+<h4>Mocht je <b>niet kunnen</b> komen, vinden we dit erg jammer. Maar we horen het graag dus <b>meldt</b> je af bij ons of de ceremoniemeester.</h4>
+
 <ul>
-<li>Mocht je niet kunnen komen, vinden we dit erg jammer. Maar we horen het graag dus meldt je af bij ons of de ceremoniemeester.</li>
-<br/>
-<li>Het is mogelijk om te blijven slapen op de trouwlocatie. Er zijn een aantal tweepersoonskamers met eigen badkamer en kamers met een gedeelde badgelegenheid.</li>
-<br/>
-<li>Mocht je willen blijven slapen neem dan contact op met onze ceremoniemeester Karin Tufekçi-Verbunt via 06-10 95 27 33 of k.verbunt@hotmail.com</li>
-<br/>
-<li>Zij heeft een overzicht van de beschikbare kamers en de bijbehorende kosten. Zij zal dit dan ook communiceren met Klooster Nieuwkerk.</li>
-<br/>
-<li>Wij blijven in ieder geval slapen in de bruidssuite en zullen zorgen voor paracetamol tijdens het ontbijt.</li>
-<br/>
-<li>Als je blijft slapen dan kun je inchecken bij aankomst en je spullen eventueel al op je kamer leggen.</li>
-<br/>
-<li>Dit is natuurlijk overbodig; maar kom niet als je klachten hebt zoals beschreven door het RIVM.</li>
-<br />
-<li>We hebben geen officiële dresscode, maar wij zijn dressed to impress en we hopen jij ook</li>
+<li>Het is mogelijk om te blijven <b>slapen</b> op de trouwlocatie. Er zijn een aantal <b>tweepersoonskamers</b> met eigen badkamer en kamers met een gedeelde badgelegenheid.</li>
+<Zij>Mocht je willen blijven slapen neem dan contact op met onze <b>ceremoniemeester Karin Tufekçi-Verbunt</b> via 06-10 95 27 33 of k.verbunt@hotmail.com.
+Zij heeft een overzicht van de <b>beschikbare kamers</b> en de bijbehorende kosten. Zij zal dit dan ook <b>communiceren</b> met Klooster Nieuwkerk.</li>
+<li>Wij blijven <b>in ieder geval</b> slapen in de <b>bruidssuite</b> en zullen zorgen voor <b>paracetamol</b> tijdens het ontbijt.</li>
+<li>Als je blijft slapen dan kun je <b>inchecken</b> bij aankomst en je spullen eventueel al op <b>je kamer</b> leggen.</li>
+<li>Dit is natuurlijk overbodig; maar <b>kom niet</b> als je <b>klachten</b> hebt zoals beschreven door het RIVM.</li>
+<li>We hebben <b>geen officiële dresscode</b>, maar wij zijn dressed to impress en we hopen jij ook</li>
 </ul>
 `;
 
