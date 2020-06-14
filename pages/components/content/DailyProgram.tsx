@@ -2,7 +2,7 @@
 import styles from './DailyProgram.scss';
 
 // Constants
-import { DAILY_PROGRAM_TITLE, DAILY_PROGRAM_TEXT } from '../../constants/general';
+import { DAILY_PROGRAM_TITLE, DAILY_PROGRAM_TEXT } from '../../../constants/general';
 
 const DailyProgram = () => {
   return (

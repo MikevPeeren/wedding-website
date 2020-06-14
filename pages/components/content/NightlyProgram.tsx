@@ -2,7 +2,7 @@
 import styles from './NightlyProgram.scss';
 
 // Constants
-import { NIGHTLY_PROGRAM_TITLE, NIGHTLY_PROGRAM_TEXT } from '../../constants/general';
+import { NIGHTLY_PROGRAM_TITLE, NIGHTLY_PROGRAM_TEXT } from '../../../constants/general';
 
 const NightlyProgram = () => {
   return (

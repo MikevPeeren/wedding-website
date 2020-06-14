@@ -14,18 +14,12 @@ import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
 import Availability from './components/Availablility';
-import DailyProgram from './components/DailyProgram';
-import NightlyProgram from './components/NightlyProgram';
+import DailyProgram from './components/content/DailyProgram';
+import NightlyProgram from './components/content/NightlyProgram';
+import WeddingLocation from './components/content/WeddingLocation';
 
 // Constants
-import {
-  HEADER,
-  WEDDING_LOCATION_TITLE,
-  WEDDING_LOCATION_TEXT,
-  EXTRA_INFORMATION_TITLE,
-  EXTRA_INFORMATION_TEXT,
-  HOME,
-} from '../constants/general';
+import { HEADER, EXTRA_INFORMATION_TITLE, EXTRA_INFORMATION_TEXT, HOME } from '../constants/general';
 
 const Home = () => {
   const [expandableText, setExpandableText] = useState('');
@@ -64,33 +58,29 @@ const Home = () => {
         </div>
 
         <div className={styles.container__content}>
-          <img className={styles.container__dailyProgramImage} src="/static/mr&mrs.jpg"></img>
-          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
-            <DailyProgram />
+          <div>
+            <img className={styles.container__dailyProgramImage} src="/static/mr&mrs.jpg"></img>
+            <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
+              <DailyProgram />
+            </div>
           </div>
 
           <div className={styles.container__nightlyProgramImage}>
             <img src="/static/feesten&borrel.jpg"></img>
           </div>
-          <div
-            className={styles.container__nightlyProgramContainer}
-            data-aos="fade-left"
-            data-aos-offset="500"
-            data-aos-duration="800"
-            data-aos-easing="linear"
-          >
+          <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
             <NightlyProgram />
+          </div>
+
+          <div>
+            <img className={styles.container__weddingLocationImage} src="/static/kloosternieuwkerk2.jpg"></img>
+          </div>
+          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800" data-aos-easing="linear">
+            <WeddingLocation />
           </div>
         </div>
 
-        {/* <span
-            className={styles.menuSelector}
-            onClick={() => {
-              changeText(NIGHTLY_PROGRAM_TEXT);
-            }}
-          >
-            {NIGHTLY_PROGRAM_TITLE}
-          </span>
+        {/*
           <span
             className={styles.menuSelector}
             onClick={() => {

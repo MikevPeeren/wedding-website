@@ -114,21 +114,15 @@ Heb je een ander idee om ons te <b>feliciteren</b> geef het gerust aan.</li>
 
 export const WEDDING_LOCATION_TITLE = 'Trouwlocatie';
 export const WEDDING_LOCATION_TEXT = `
-<img src="static/kloosternieuwkerk.jpg" style="z-index:999; position:relative; width:100%; max-width:500px; height:auto;"/>
+<h4>We trouwen bij <a href="https://kloosternieuwkerkgoirle.nl"/>Klooster Nieuwkerk</a> Adres: Nieuwkerk 2, 5051 PN Goirle</h4>
 
 <ul>
-<li>We trouwen bij Klooster Nieuwkerk Adres: Nieuwkerk 2, 5051 PN Goirle  https://kloosternieuwkerkgoirle.nl/</li>
-<br/>
-<li>Onze trouwlocatie ligt in de bossen, dus de weg er naartoe is zo’n 2 kilometer zandweg als je de navigatie volgt. Het is goed te rijden, als je niet te snel rijdt.</li>
-<br/>
-<li>Je kunt de zandweg grotendeels vermijden door rechtsaf te slaan als er een bruin bordje ‘Klooster Nieuwkerk’ aan de rechterkant van de weg staat als je op Turnhoutsebaan rijdt (=de 80km weg).
-<br/>
-Volg de slinger weg en ga aan het einde rechtsaf. Het is dan nog maar een klein stukje over de zandweg rijden.</li>
-<br/>
-<li>Je kunt voor het klooster en rechts ervan parkeren, het makkelijkste is als je links om het gebouw heen loopt naar tuin waar de borrel is.</li>
-<br/>
-<li>Op de locatie zijn er looproutes aangebracht vanwege Corona, volg deze en aanwijzingen van het personeel op.</li>
-<br/>
+<li>Onze trouwlocatie ligt in de <b>bossen</b>, dus de weg er naartoe is zo’n 2 kilometer <b>zandweg</b> als je de navigatie volgt.
+Het is goed te rijden, als je niet te <b>snel</b> rijdt.</li>
+<li>Je kunt de zandweg grotendeels <b>vermijden</b> door rechtsaf te slaan als er een bruin bordje <b>‘Klooster Nieuwkerk’</b> aan de rechterkant van de weg staat als je op <b>Turnhoutsebaan</b> rijdt (=de 80km weg).
+Volg de slinger weg en ga aan het <b>einde rechtsaf</b>. Het is dan nog maar een <b>klein stukje</b> over de zandweg rijden.</li>
+<li>Je kunt voor het klooster en rechts ervan <b>parkeren</b>, het makkelijkste is als je links om het gebouw heen loopt naar <b>tuin</b> waar de borrel is.</li>
+<li>Op de locatie zijn er <b>ooproutes</b> aangebracht vanwege <b>Corona</b>, volg deze en <b>aanwijzingen</b> van het personeel op.</li>
 </ul>
 `;
 

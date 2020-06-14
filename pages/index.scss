@@ -28,15 +28,23 @@
   }
 
   &__dailyProgramImage {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     height: auto;
     width: 100%;
     border-radius: 0em;
   }
 
   &__nightlyProgramImage {
-    margin: 2em;
+    margin: 4em;
+  }
+
+  &__weddingLocationImage {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    height: auto;
+    width: 100%;
+    border-radius: 0em;
   }
 }
 
