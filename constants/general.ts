@@ -1,4 +1,4 @@
-export const HEADER = 'Bruiloft';
+export const HEADER = 'Bruiloft Mike & Monika';
 export const HEADER_MIKE_AND_MONIKA = 'Mike & Monika';
 export const SUBHEADER = '25 September 2020';
 
