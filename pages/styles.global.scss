@@ -39,7 +39,7 @@ body {
   }
 
   ul {
-    width: 80%;
+    width: 70%;
     text-align: center;
     line-height: 150%;
     letter-spacing: 0.1em;
@@ -47,6 +47,8 @@ body {
 
   img {
     width: 40%;
+    height: auto;
+    border-radius: 5em;
   }
 }
 
@@ -87,5 +89,7 @@ body {
 
   img {
     width: 80%;
+    height: auto;
+    border-radius: 5em;
   }
 }

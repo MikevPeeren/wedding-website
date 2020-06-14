@@ -18,9 +18,13 @@
     text-align: center;
   }
 
-  &__image {
-    border-radius: 1em;
-    height: auto;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    overflow-x: hidden; // To hide AOS overflow.
   }
 
   &__dailyProgramImage {
@@ -28,14 +32,11 @@
     margin-bottom: 3em;
     height: auto;
     width: 100%;
+    border-radius: 0em;
   }
 
-  &__dailyProgramText {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+  &__nightlyProgramImage {
+    margin: 2em;
   }
 }
 

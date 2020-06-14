@@ -31,7 +31,7 @@ Liefs, Mike & Monika (&Belle)
 
 export const DAILY_PROGRAM_TITLE = 'Dagprogramma';
 export const DAILY_PROGRAM_TEXT = `
-<h4>Hier vind je de informatie over het programma van de dag en de bijzonderheden.</h4>
+<h4>Hier vind je de informatie over het programma van de <b>dag</b> en de <b>bijzonderheden</b>.</h4>
 
 <ul>
 <li>Tijdens de ceremonie en het diner hebben we ervoor gezorgd dat alleen <b>huishoudens</b> of mensen die elkaar regelmatig zien bij <b>elkaar</b> zijn geplaatst.</li>
@@ -39,7 +39,7 @@ export const DAILY_PROGRAM_TEXT = `
 <li>Het gangpad is <b>extra breed</b> om ook daar de <b>1.5 meter</b> ruimte te creëren.</li>
 <li>Tijdens de <b>borrel</b> zijn er extra grote borreltafels zodat je bij <b>elkaar</b> kunt staan en nog voldoende <b>afstand</b> kunt houden.</li>
 <li>Spreek <b>elkaar</b> gerust op een vriendelijke manier aan wanneer je te <b>weinig ruimte</b> ervaart.</li>
-<li>Er staan <b>handinfectie</b> middelen waar je gebruik van mag maken.</li>
+<li>Er staan <b>handdesinfectie</b> middelen waar je gebruik van mag maken.</li>
 </ul>
 
 <p>
@@ -82,26 +82,22 @@ Tijdens het diner zal er opnieuw rekening worden gehouden met Corona. Bij goed w
 
 export const NIGHTLY_PROGRAM_TITLE = 'Avondprogramma';
 export const NIGHTLY_PROGRAM_TEXT = `
-<b>Hier vind je de informatie over het programma van de avond en de bijzonderheden.</b>
-<br/>
-<br/>
-<ul>
+<h4>Hier vind je de informatie over het programma van de <b>avond</b> en de <b>bijzonderheden</b>.</h4>
 
-<li>Helaas was een trouwfeest door de Corona-maatregelen niet mogelijk. Daarom hebben we gekozen voor een Trouwborrel die wel ‘Corona-Proof’ is. Geen DJ en openingsdans, wel proosten, samenzijn en feestvieren!</li>
-<br/>
-<li>Handen schudden en knuffelen is ook niet mogelijk nu, maar ook op 1.5 meter zien we vast en zeker dat je blij voor ons bent. Heb je een ander idee om ons te feliciteren geef het gerust aan.</li>
-<br/>
-<li>Bij goed weer is de borrel buiten en zullen er kampvuren, zitplaatsen en tafels worden geplaatst.</li>
-<br/>
-<li>Bij slecht weer wordt er een tent aan het gebouw gezet zodat er voldoende ruimte is voor iedereen om 1.5 meter ruimte te hebben</li>
-<br/>
-<li>Er worden extra grote borreltafels geplaatst zodat je bij elkaar kunt staan en nog voldoende afstand kunt houden.</li>
-<br/>
-<li>Spreek elkaar gerust op een vriendelijke manier aan wanneer je te weinig ruimte ervaart.</li>
-<br/>
-<li>Er staan handdesinfectie middelen waar je gebruik van mag maken.</li>
+<ul>
+<li>Helaas was een trouwfeest door de <b>Corona-maatregelen</b> niet mogelijk.
+Daarom hebben we gekozen voor een <b>Trouwborrel</b> die wel ‘Corona-Proof’ is.
+Geen DJ en openingsdans, <b>wel</b> proosten, samenzijn en feestvieren!</li>
+<li>Handen schudden en knuffelen is ook niet mogelijk nu, maar ook op 1.5 meter zien we vast en zeker dat je <b>blij</b> voor ons bent.
+Heb je een ander idee om ons te <b>feliciteren</b> geef het gerust aan.</li>
+<li>Bij goed weer is de <b>borrel</b> buiten en zullen er kampvuren, zitplaatsen en tafels worden geplaatst.</li>
+<li>Bij slecht <b>weer</b> wordt er een <b>tent</b> aan het gebouw gezet zodat er <b>voldoende</b> ruimte is voor iedereen om 1.5 meter ruimte te hebben</li>
+<li>Er worden extra <b>grote borreltafels</b> geplaatst zodat je bij elkaar kunt staan en nog voldoende afstand <b>kunt</b> houden.</li>
+<li>Spreek elkaar gerust op een <b>vriendelijke</b> manier aan wanneer je te weinig ruimte ervaart.</li>
+<li>Er staan <b>handdesinfectie</b> middelen waar je gebruik van mag maken.</li>
 </ul>
-<br/>
+
+<p>
 <b>Programma:</b>
 <br/>
 <br/>
@@ -111,8 +107,8 @@ export const NIGHTLY_PROGRAM_TEXT = `
 <i>21.00 uur: </i> <br/> Aankomst Bruidspaar en toost met Schrobbelèr
 <br/>
 <br/>
-<i>1.00 uur: </i> <br/> Wij gaan naar bed…
-<br/>
+<i>1.00 uur: </i> <br/> Wij gaan (waarschijnlijk) naar bed… 😴😴😴
+</p>
 
 `;
 
