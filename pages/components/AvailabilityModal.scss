@@ -1,3 +1,11 @@
 .availabilityModal {
   background: #fff0f5 !important;
+
+  &__contentText {
+    width: 100%;
+  }
+
+  &__errorText {
+    width: 100%;
+  }
 }

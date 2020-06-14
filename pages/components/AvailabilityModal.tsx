@@ -30,13 +30,15 @@ import {
   FORM_SUBMIT,
   FIELD_EMPTY,
   INVALID_EMAIL,
+  ERROR_TEXT,
 } from '../../constants/general';
 
 interface AvailabilityModalProps {
   open: boolean;
   handleClose: Function;
+  handleSuccessApiCall: Function;
 }
-const AvailabilityModal = ({ open, handleClose }) => {
+const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
   const [name, setName] = useState(null);
   const [nameError, setNameError] = useState(false);
   const [email, setEmail] = useState(null);
@@ -46,12 +48,18 @@ const AvailabilityModal = ({ open, handleClose }) => {
   const [amountOfPersonsError, setAmountOfPersonsError] = useState(false);
   const [checkboxComing, setCheckboxComing] = useState(true);
   const [checkboxNotComing, setCheckboxNotComing] = useState(false);
+  const [showError, setShowError] = useState(false);
 
-  const handleSubmit = () => {
-    if (!name) setNameError(true);
+  const handleSubmit = async () => {
+    if (!name) {
+      setNameError(true);
+      return;
+    }
+
     if (!email) {
       setEmailError(true);
       setEmailErrorText(FIELD_EMPTY);
+      return;
     }
     if (!amountOfPersons) setAmountOfPersonsError(true);
 
@@ -61,11 +69,28 @@ const AvailabilityModal = ({ open, handleClose }) => {
     if (email && !validEmail) {
       setEmailError(true);
       setEmailErrorText(INVALID_EMAIL);
+      return;
     }
 
     if (nameError || emailError || amountOfPersonsError) return;
 
-    fetch(`/api/availabilityHandler/${name}/${email}/${amountOfPersons}/${checkboxComing}`);
+    const apiCall = await fetch(`/api/send-email`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        amountOfPersons: amountOfPersons,
+        checkboxComing: checkboxComing,
+      }),
+    });
+
+    if (apiCall.status === 200) {
+      handleSuccessApiCall();
+      handleClose();
+    } else {
+      setShowError(true);
+    }
   };
 
   const handleNameChange = (event) => {
@@ -102,7 +127,9 @@ const AvailabilityModal = ({ open, handleClose }) => {
     >
       <DialogTitle id="form-dialog-title">{AVAILABILITY_HEADER}</DialogTitle>
       <DialogContent dividers>
-        <DialogContentText>{AVAILABILITY_TEXT}</DialogContentText>
+        <DialogContentText classes={{ root: styles.availabilityModal__contentText }}>
+          {AVAILABILITY_TEXT}
+        </DialogContentText>
         <TextField
           id="name"
           margin="dense"
@@ -171,6 +198,13 @@ const AvailabilityModal = ({ open, handleClose }) => {
           }
           label={LABEL_NOT_THERE}
         />
+        <br />
+        <br />
+        {showError && (
+          <DialogContentText color="error" classes={{ root: styles.availabilityModal__errorText }}>
+            {ERROR_TEXT}
+          </DialogContentText>
+        )}
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>{FORM_CANCEL}</Button>

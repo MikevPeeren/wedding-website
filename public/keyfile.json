@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wedding-website-279011",
+  "private_key_id": "7f1be1979a648482dfdd72014df0d6eba215e3b5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCT5YysNjvriOi+\n0op64xKbvxEc6KgOlbj4MvUknqQwcOwnhefHH8AUROdvN6RzcriWEfABls1Q8JxW\nI7Ju42ZaoHIFHOTx4znjlgz0J0i1G3iiAcrMrBvP0qZOW9XjcFSssjdmAaG1JmfF\nICSxIv12ATKG+P5OyoDVwTWjOYIqo/ydLhCfkzwiYn+S0e4mWS4yP91gMXDHKtNX\nDi3RIUS2bb4e/gQko2pr3VVj89QYGl6mvTpj7xjZ4F4sKVz8xx+bQBl4DImdB+PU\n0f2XBozFdZSxgKi+1feKHWVPLhalXXtD6HUA6OazVPpyj4M+2ZGUyaKwZ5tYUXks\nvh/IdDhtAgMBAAECggEAHy/X7OWn14hgigK0NGsnPKP7DBVMgPzWCzKVqpHwbg2V\n4tS0FjOOCcgo5HU/jp+5qF2idndSFtgSI4D2CreVmRU9zfG0noRLq//zfdW92YDw\nPHtzxBqj57xUGPB5JzOEC4GuOGquKpitZ65aRmcqOwTQHpGpcLx3k/ug36lMF0j4\nhMLaaozjoroYytZT8Hbc9mIARvpO0SuMbnVix6TTPH344j9tbovej9a3+bGYbB4I\nMOQmHUPtHCyCM9PAcZgZSS3UDBEfx3nFYBXh4Z3NK5qYXPPRxtaa2fu/FiyA64cT\n5lpQUKx2kKGWW/HgV+hSyx0j2GSyipb0BpqHpgsOGQKBgQDQgy5PKy6LfZvRm+nT\nmaKijH+BTUANXvbZvf+C5DgSEhip6fD5w0+w0ihi0rX27F8GrhlXVZv7f7Vq9jXH\nRg8LEaBI07tERWj8Z3yMyx8QEpemq2m9sOq10XhJThsHuwzEqaGSYYOLAKxDD0JI\n5Bh2N05sHWnOLBm6scNkIo4PKQKBgQC1lE/qenMgTjLpWrVQgCqkihmdmWKtS8CY\nVOyKqjsn4ftQGeg+ViICNiN8Jfd0tXb+KtNDM+2V88cR3LK0EFtgxgLXXQwI60fq\nxMux9vcL+Kp1+zsfx9blJRapWZ0nj6mW1IzUXlVv1PtJyL7DG+AbqtbzUkfp1Wik\nJtwlFPY7pQKBgQCnjkLQa6rjfPSR4/BqkbMXXD+58BHgrMdBAmUpEavdGZ2oLM3w\nZvrK5JZ/k0OWQSu7envyqmDGIUHvyho9IBdGlctvunVpzz0mVyLHIRK9H7Otw2Ed\nheWWZdV7UsB13eHMx2OG9cV3FftXiBOD74eYt6jVSG2Vt+qVE/Qnq3zswQKBgH4R\nG68DFv097bEATlQ2t+SHESPPQ6hnqK7af2QCrpGRHwfNBOaKrI/2gIqIXZcFCjmL\nCCRnYDO1DehD3zqPBLJap8xYiKuElujTe0zy1zDTk53YMINvHq73IhWv5yF5Z9gV\neDVVzWGYcGMY4gDaUK1E3noPDWi2xzD43e1M8WwVAoGAfP4JXLn4pO+wOmKw5rxw\nDR54C7WPCHoCF0dtDDOYydbLsEVprZIjHn/b0DGf2DdrITD2HZqF7ZXhfUJI5FEz\n5A095Q1ptgQNRrVh+fTdXZ3HMgxurJHGuVzxyNt0PHLV0nYqxXoIq3VjAVKXFTLj\newbkq6jTmLgwgPjDwVzyP2Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fileuploader@wedding-website-279011.iam.gserviceaccount.com",
+  "client_id": "112184332439142687696",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fileuploader%40wedding-website-279011.iam.gserviceaccount.com"
+}
