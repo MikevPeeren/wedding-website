@@ -17,9 +17,6 @@ Verder vind je op deze pagina informatie over het <b>dag-, en avondprogramma</b>
 export const INTRODUCTION_THIRD = `
 Is er iets <b>onduidelijk</b> neem gerust contact met ons op of met onze <b>ceremoniemeester</b> Karin Tufekçi-Verbunt.
 Haar informatie vind je in onder het <b>extra informatie</b> kopje.
-In het menu linksboven kun je naar een <b>foto album</b>.
-Hierin kun je de foto’s die je zelf maakt op onze trouwdag <b>uploaden</b> en kun je foto’s <b>downloaden</b> die je wilt bewaren.
-We zouden het <b>heel fijn</b> vinden als je dat zou willen doen, zodat we onze dag kunnen blijven <b>herinneren!</b> Alle foto’s zijn welkom!
 `;
 
 export const INTRODUCTION_FOURTH = `
@@ -108,7 +105,8 @@ Heb je een ander idee om ons te <b>feliciteren</b> geef het gerust aan.</li>
 <i>21.00 uur: </i> <br/> Aankomst Bruidspaar en toost met Schrobbelèr
 <br/>
 <br/>
-<i>1.00 uur: </i> <br/> Wij gaan (waarschijnlijk) naar bed… 😴😴😴
+<i>1.00 uur: </i> <br/> Wij gaan (waarschijnlijk) naar bed…
+</br>😴😴😴
 </p>
 
 `;
@@ -133,11 +131,12 @@ export const EXTRA_INFORMATION_TEXT = `
 
 <ul>
 <li>Het is mogelijk om te blijven <b>slapen</b> op de trouwlocatie. Er zijn een aantal <b>tweepersoonskamers</b> met eigen badkamer en kamers met een gedeelde badgelegenheid.</li>
-<Zij>Mocht je willen blijven slapen neem dan contact op met onze <b>ceremoniemeester Karin Tufekçi-Verbunt</b> via 06-10 95 27 33 of k.verbunt@hotmail.com.
+<li>Mocht je willen blijven slapen neem dan contact op met onze <b>ceremoniemeester Karin Tufekçi-Verbunt</b> via 06-10 95 27 33 of k.verbunt@hotmail.com.
 Zij heeft een overzicht van de <b>beschikbare kamers</b> en de bijbehorende kosten. Zij zal dit dan ook <b>communiceren</b> met Klooster Nieuwkerk.</li>
 <li>Wij blijven <b>in ieder geval</b> slapen in de <b>bruidssuite</b> en zullen zorgen voor <b>paracetamol</b> tijdens het ontbijt.</li>
 <li>Als je blijft slapen dan kun je <b>inchecken</b> bij aankomst en je spullen eventueel al op <b>je kamer</b> leggen.</li>
 <li>Dit is natuurlijk overbodig; maar <b>kom niet</b> als je <b>klachten</b> hebt zoals beschreven door het RIVM.</li>
+</br>
 <li>We hebben <b>geen officiële dresscode</b>, maar wij zijn dressed to impress en we hopen jij ook.</li>
 </ul>
 `;

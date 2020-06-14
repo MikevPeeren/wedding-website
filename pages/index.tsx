@@ -39,7 +39,7 @@ const Home = () => {
       </Head>
 
       <main className={styles.container__main}>
-        <NavigationBar title={HOME} />
+        {/* <NavigationBar title={HOME} /> */}
         <div className={styles.container__header}>
           <Header />
           <div>
@@ -77,7 +77,7 @@ const Home = () => {
           <div className={styles.container__nightlyProgramImage}>
             <img src="/static/butterfly.jpg"></img>
           </div>
-          <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
+          <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
             <ExtraInformation />
           </div>
         </div>

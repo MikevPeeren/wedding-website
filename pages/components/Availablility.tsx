@@ -34,6 +34,7 @@ const Availability = () => {
         onClick={() => {
           handleOpen();
         }}
+        classes={{ label: styles.buttonLabel }}
       >
         {AVAILABILITY}
       </Button>
