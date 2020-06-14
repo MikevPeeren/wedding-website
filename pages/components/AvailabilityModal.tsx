@@ -61,7 +61,11 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
       setEmailErrorText(FIELD_EMPTY);
       return;
     }
-    if (!amountOfPersons) setAmountOfPersonsError(true);
+
+    if (!amountOfPersons) {
+      setAmountOfPersonsError(true);
+      return;
+    }
 
     const simpleEmailValidation = /\S+@\S+\.\S+/;
     const validEmail = simpleEmailValidation.test(email);
