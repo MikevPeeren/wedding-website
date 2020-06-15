@@ -120,8 +120,8 @@ export const WEDDING_LOCATION_TEXT = `
 Het is goed te rijden, als je niet te <b>snel</b> rijdt.</li>
 <li>Je kunt de zandweg grotendeels <b>vermijden</b> door rechtsaf te slaan als er een bruin bordje <b>‘Klooster Nieuwkerk’</b> aan de rechterkant van de weg staat als je op <b>Turnhoutsebaan</b> rijdt (=de 80km weg).
 Volg de slinger weg en ga aan het <b>einde rechtsaf</b>. Het is dan nog maar een <b>klein stukje</b> over de zandweg rijden.</li>
-<li>Je kunt voor het klooster en rechts ervan <b>parkeren</b>, het makkelijkste is als je links om het gebouw heen loopt naar <b>tuin</b> waar de borrel is.</li>
-<li>Op de locatie zijn er <b>ooproutes</b> aangebracht vanwege <b>Corona</b>, volg deze en <b>aanwijzingen</b> van het personeel op.</li>
+<li>Je kunt voor het klooster en rechts ervan <b>parkeren</b>, het makkelijkste is als je links om het gebouw heen loopt naar de <b>tuin</b> waar de borrel is.</li>
+<li>Op de locatie zijn er <b>looproutes</b> aangebracht vanwege <b>Corona</b>, volg deze en <b>aanwijzingen</b> van het personeel op.</li>
 </ul>
 `;
 
