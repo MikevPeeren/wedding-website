@@ -113,7 +113,7 @@ Heb je een ander idee om ons te <b>feliciteren</b> geef het gerust aan.</li>
 
 export const WEDDING_LOCATION_TITLE = 'Trouwlocatie';
 export const WEDDING_LOCATION_TEXT = `
-<h4>We trouwen bij <a href="https://kloosternieuwkerkgoirle.nl"/>Klooster Nieuwkerk</a> Adres: Nieuwkerk 2, 5051 PN Goirle</h4>
+<h4>We trouwen bij <a href="https://kloosternieuwkerkgoirle.nl" target="_blank"/>Klooster Nieuwkerk</a> Adres: Nieuwkerk 2, 5051 PN Goirle</h4>
 
 <ul>
 <li>Onze trouwlocatie ligt in de <b>bossen</b>, dus de weg er naartoe is zo’n 2 kilometer <b>zandweg</b> als je de navigatie volgt.
