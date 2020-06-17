@@ -19,7 +19,7 @@ import WeddingLocation from './components/content/WeddingLocation';
 import ExtraInformation from './components/content/ExtraInformation';
 
 // Constants
-import { HEADER, HOME } from '../constants/general';
+import { HEADER, COPYRIGHT_TEXT } from '../constants/general';
 
 const Home = () => {
   const isServer = typeof window === 'undefined';
@@ -51,22 +51,58 @@ const Home = () => {
         </div>
 
         <div className={styles.container__content}>
-          <div>
-            <img className={styles.container__dailyProgramImage} src="/static/mrmrs.jpg"></img>
-            <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
-              <DailyProgram />
-            </div>
+          <div className={styles.container__dailyProgramImageContainer}>
+            <figure className={styles.container__dailyProgramImageContainer__figure}>
+              <img className={styles.container__dailyProgramImageContainer__image} src="/static/mrmrs.jpg"></img>
+              <figcaption>
+                <a
+                  className={styles.container__content__copyright}
+                  href="https://kloosternieuwkerkgoirle.nl"
+                  target="_blank"
+                >
+                  {COPYRIGHT_TEXT}
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
+            <DailyProgram />
           </div>
 
-          <div className={styles.container__nightlyProgramImage}>
-            <img src="/static/feestenborrel.jpg"></img>
+          <div className={styles.container__nightlyProgramImageContainer}>
+            <figure className={styles.container__nightlyProgramImageContainer__figure}>
+              <img src="/static/feestenborrel.jpg"></img>
+              <figcaption>
+                <a
+                  className={styles.container__content__copyright}
+                  href="https://kloosternieuwkerkgoirle.nl"
+                  target="_blank"
+                >
+                  {COPYRIGHT_TEXT}
+                </a>
+              </figcaption>
+            </figure>
           </div>
           <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
             <NightlyProgram />
           </div>
 
-          <div>
-            <img className={styles.container__weddingLocationImage} src="/static/kloosternieuwkerk.jpg"></img>
+          <div className={styles.container__weddingLocationImageContainer}>
+            <figure className={styles.container__weddingLocationImageContainer__figure}>
+              <img
+                className={styles.container__weddingLocationImageContainer__image}
+                src="/static/kloosternieuwkerk.jpg"
+              ></img>
+              <figcaption>
+                <a
+                  className={styles.container__content__copyright}
+                  href="https://kloosternieuwkerkgoirle.nl"
+                  target="_blank"
+                >
+                  {COPYRIGHT_TEXT}
+                </a>
+              </figcaption>
+            </figure>
           </div>
           <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
             <WeddingLocation />
