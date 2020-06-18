@@ -56,7 +56,7 @@ const Availability = () => {
       <AvailabilityModal open={open} handleClose={handleClose} handleSuccessApiCall={handleSuccessApiCall} />
       <Snackbar
         open={openSuccessMessage}
-        anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
         autoHideDuration={8000}
         onClose={handleCloseAlert}
       >
