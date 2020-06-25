@@ -16,7 +16,7 @@ Verder vind je op deze pagina informatie over het <b>dag-, en avondprogramma</b>
 
 export const INTRODUCTION_THIRD = `
 Is er iets <b>onduidelijk</b> neem gerust contact met ons op of met onze <b>ceremoniemeester</b> Karin Tufekçi-Verbunt.
-Haar informatie vind je onder het <b>extra informatie</b> kopje.
+Haar informatie vind je onderaan de pagina bij het <b>extra informatie</b> kopje.
 `;
 
 export const INTRODUCTION_FOURTH = `
