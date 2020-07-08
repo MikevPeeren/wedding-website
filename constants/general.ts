@@ -37,7 +37,7 @@ export const DAILY_PROGRAM_TEXT = `
 <li>Het gangpad is <b>extra breed</b> om ook daar de <b>1.5 meter</b> ruimte te creëren.</li>
 <li>Tijdens de <b>borrel</b> zijn er extra grote borreltafels zodat je bij <b>elkaar</b> kunt staan en nog voldoende <b>afstand</b> kunt houden.</li>
 <li>Spreek <b>elkaar</b> gerust op een vriendelijke manier aan wanneer je te <b>weinig ruimte</b> ervaart.</li>
-<li>Er staan <b>handdesinfectie</b> middelen waar je gebruik van mag maken.</li>
+<li>Er staan <b>handdesinfectiemiddelen</b> waar je gebruik van mag maken.</li>
 </ul>
 
 <p>
@@ -92,7 +92,7 @@ Heb je een ander idee om ons te <b>feliciteren</b> geef het gerust aan.</li>
 <li>Bij slecht <b>weer</b> wordt er een <b>tent</b> aan het gebouw gezet zodat er <b>voldoende</b> ruimte is voor iedereen om 1.5 meter ruimte te hebben</li>
 <li>Er worden extra <b>grote borreltafels</b> geplaatst zodat je bij elkaar kunt staan en nog voldoende afstand <b>kunt</b> houden.</li>
 <li>Spreek elkaar gerust op een <b>vriendelijke</b> manier aan wanneer je te weinig ruimte ervaart.</li>
-<li>Er staan <b>handdesinfectie</b> middelen waar je gebruik van mag maken.</li>
+<li>Er staan <b>handdesinfectiemiddelen</b> waar je gebruik van mag maken.</li>
 </ul>
 
 <p>
@@ -127,7 +127,7 @@ Volg de slinger weg en ga aan het <b>einde rechtsaf</b>. Het is dan nog maar een
 
 export const EXTRA_INFORMATION_TITLE = 'Extra informatie';
 export const EXTRA_INFORMATION_TEXT = `
-<h4>Mocht je <b>niet kunnen</b> komen, vinden we dit erg jammer. Maar we horen het graag dus <b>meldt</b> je af bij ons of de ceremoniemeester.</h4>
+<h4>Mocht je <b>niet kunnen</b> komen, vinden we dit erg jammer. Maar we horen het graag dus <b>meld</b> je af bij ons of de ceremoniemeester.</h4>
 
 <ul>
 <li>Het is mogelijk om te blijven <b>slapen</b> op de trouwlocatie. Er zijn een aantal <b>tweepersoonskamers</b> met eigen badkamer en kamers met een gedeelde badgelegenheid.</li>
