@@ -6,13 +6,13 @@ export const SUBHEADER = '25 September 2020';
 export const INTRODUCTION_FIRST = `
 Welkom op de website voor onze <b>bruiloft!</b> Ondanks dat het lang onzeker was, zijn we erg blij dat we toch kunnen trouwen op <b>25 September 2020!</b> Yay!
 Er zijn verschillende dingen anders dan voorheen, door de <b>maatregelen</b> vanuit de regering en het RIVM.
-<b>Hieronder</b> vindt je hoe wij daar rekening mee hebben gehouden zodat we een <b>mooie bruiloft</b> kunnen vieren.
+<b>Hieronder</b> vind je hoe wij daar rekening mee hebben gehouden zodat we een <b>mooie bruiloft</b> kunnen vieren.
 Dit leek ons de makkelijkste manier om <b>iedereen</b> de juiste informatie te geven.
 `;
 export const INTRODUCTION_SECOND = `
 Het <b>belangrijkste</b> is dat we de <b>mooiste</b> dag uit ons leven kunnen vieren met onze familie en vrienden.
 Onderaan deze tekst staat een knop waarmee je aan kunt geven of je <b>wel of niet</b> komt. We zouden het fijn vinden als je dat doet.
-Verder vind je op deze pagina informatie over het <b>dag-, en avondprogramma</b>, maar ook over de <b>trouwlocatie</b> en andere bijzonderheden.`;
+Verder vind je op deze pagina informatie over het <b>dag- en avondprogramma</b>, maar ook over de <b>trouwlocatie</b> en andere bijzonderheden.`;
 
 export const INTRODUCTION_THIRD = `
 Is er iets <b>onduidelijk</b> neem gerust contact met ons op of met onze <b>ceremoniemeester</b> Karin Tufekçi-Verbunt.
