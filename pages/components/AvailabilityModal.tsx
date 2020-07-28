@@ -49,8 +49,10 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
   const [checkboxComing, setCheckboxComing] = useState(true);
   const [checkboxNotComing, setCheckboxNotComing] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [disabledSubmitButton, setDisabledSubmitButton] = useState(false);
 
   const handleSubmit = async () => {
+    setDisabledSubmitButton(true);
     if (!name) {
       setNameError(true);
       return;
@@ -95,6 +97,8 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
     } else {
       setShowError(true);
     }
+
+    setDisabledSubmitButton(false);
   };
 
   const handleNameChange = (event) => {
@@ -212,7 +216,7 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>{FORM_CANCEL}</Button>
-        <Button variant="contained" color="secondary" onClick={handleSubmit}>
+        <Button disabled={disabledSubmitButton} variant="contained" color="secondary" onClick={handleSubmit}>
           {FORM_SUBMIT}
         </Button>
       </DialogActions>
