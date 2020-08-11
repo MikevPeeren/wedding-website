@@ -14,7 +14,7 @@
     "@sendgrid/mail": "^7.2.3",
     "@zeit/next-sass": "^1.0.1",
     "aos": "^2.3.4",
-    "next": "9.5.1",
+    "next": "9.5.2",
     "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
