@@ -1,5 +1,5 @@
 // React
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Material UI
 import Dialog from '@material-ui/core/Dialog';
@@ -50,6 +50,14 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
   const [checkboxNotComing, setCheckboxNotComing] = useState(false);
   const [showError, setShowError] = useState(false);
   const [disabledSubmitButton, setDisabledSubmitButton] = useState(false);
+
+  useEffect(() => {
+    if (!open) {
+      setNameError(false);
+      setEmailError(false);
+      setAmountOfPersonsError(false);
+    }
+  }, [open]);
 
   const handleSubmit = async () => {
     setDisabledSubmitButton(true);
