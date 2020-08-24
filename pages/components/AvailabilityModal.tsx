@@ -92,6 +92,10 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
     });
 
     if (apiCall.status === 200) {
+      setName(null);
+      setEmail(null);
+      setAmountOfPersons(null);
+      setCheckboxNotComing(false);
       handleSuccessApiCall();
       handleClose();
     } else {
