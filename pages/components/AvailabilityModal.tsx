@@ -102,26 +102,31 @@ const AvailabilityModal = ({ open, handleClose, handleSuccessApiCall }) => {
   };
 
   const handleNameChange = (event) => {
+    setDisabledSubmitButton(false);
     setNameError(false);
     setName(event.target.value);
   };
 
   const handleEmailChange = (event) => {
+    setDisabledSubmitButton(false);
     setEmailError(false);
     setEmail(event.target.value);
   };
 
   const handleAmountOfPersons = (event) => {
+    setDisabledSubmitButton(false);
     setAmountOfPersonsError(false);
     setAmountOfPersons(event.target.value);
   };
 
   const handleCheckboxComingChange = (event) => {
+    setDisabledSubmitButton(false);
     setCheckboxComing(event.target.checked);
     setCheckboxNotComing(false);
   };
 
   const handleCheckboxNotComingChange = (event) => {
+    setDisabledSubmitButton(false);
     setCheckboxNotComing(event.target.checked);
     setCheckboxComing(false);
   };
