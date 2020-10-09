@@ -12,14 +12,9 @@ import styles from './index.scss';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
-import Availability from './components/Availablility';
-import DailyProgram from './components/content/DailyProgram';
-import NightlyProgram from './components/content/NightlyProgram';
-import WeddingLocation from './components/content/WeddingLocation';
-import ExtraInformation from './components/content/ExtraInformation';
 
 // Constants
-import { HEADER, COPYRIGHT_TEXT } from '../constants/general';
+import { HEADER } from '../constants/general';
 
 const Home = () => {
   const isServer = typeof window === 'undefined';
@@ -41,7 +36,7 @@ const Home = () => {
         <div className={styles.container__header}>
           <Header />
           <div>
-            <img className={styles.container__image} src="/static/MikeEnMonika1.jpg"></img>
+            <img className={styles.container__image} src="/static/MikeEnMonika.jpg"></img>
           </div>
         </div>
 
