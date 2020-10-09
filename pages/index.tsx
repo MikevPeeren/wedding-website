@@ -41,79 +41,12 @@ const Home = () => {
         <div className={styles.container__header}>
           <Header />
           <div>
-            <img className={styles.container__image} src="/static/bellethinking.jpg"></img>
+            <img className={styles.container__image} src="/static/MikeEnMonika1.jpg"></img>
           </div>
         </div>
 
         <div className={styles.container__introduction}>
           <Introduction />
-          <Availability />
-        </div>
-
-        <div className={styles.container__content}>
-          <div className={styles.container__dailyProgramImageContainer}>
-            <figure className={styles.container__dailyProgramImageContainer__figure}>
-              <img className={styles.container__dailyProgramImageContainer__image} src="/static/mrmrs.jpg"></img>
-              <figcaption>
-                <a
-                  className={styles.container__content__copyright}
-                  href="https://kloosternieuwkerkgoirle.nl"
-                  target="_blank"
-                >
-                  {COPYRIGHT_TEXT}
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
-            <DailyProgram />
-          </div>
-
-          <div className={styles.container__nightlyProgramImageContainer}>
-            <figure className={styles.container__nightlyProgramImageContainer__figure}>
-              <img src="/static/feestenborrel.jpg"></img>
-              <figcaption>
-                <a
-                  className={styles.container__content__copyright}
-                  href="https://kloosternieuwkerkgoirle.nl"
-                  target="_blank"
-                >
-                  {COPYRIGHT_TEXT}
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
-            <NightlyProgram />
-          </div>
-
-          <div className={styles.container__weddingLocationImageContainer}>
-            <figure className={styles.container__weddingLocationImageContainer__figure}>
-              <img
-                className={styles.container__weddingLocationImageContainer__image}
-                src="/static/kloosternieuwkerk.jpg"
-              ></img>
-              <figcaption>
-                <a
-                  className={styles.container__content__copyright}
-                  href="https://kloosternieuwkerkgoirle.nl"
-                  target="_blank"
-                >
-                  {COPYRIGHT_TEXT}
-                </a>
-              </figcaption>
-            </figure>
-          </div>
-          <div data-aos="fade-right" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
-            <WeddingLocation />
-          </div>
-
-          <div className={styles.container__nightlyProgramImage}>
-            <img src="/static/butterfly.jpg"></img>
-          </div>
-          <div data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="linear">
-            <ExtraInformation />
-          </div>
         </div>
       </main>
 
