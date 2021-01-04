@@ -2,11 +2,7 @@
 import Head from 'next/head';
 
 // React
-import { useState, useEffect, useRef } from 'react';
-
-// CSS
-import './styles.global.scss';
-import styles from './index.scss';
+import { useEffect } from 'react';
 
 // Components
 import Header from './components/Header';
@@ -25,22 +21,22 @@ const Home = () => {
   });
 
   return (
-    <div className={styles.container}>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>{HEADER}</title>
         <link rel="icon" href="/static/favicon.ico" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
       </Head>
 
-      <main className={styles.container__main}>
-        <div className={styles.container__header}>
+      <main className="flex flex-col flex-wrap justify-center content-center text-center">
+        <div className="flex flex-1 flex-col flex-wrap mb-16">
           <Header />
-          <div>
-            <img className={styles.container__image} src="/static/MikeEnMonika.jpg"></img>
+          <div className="flex justify-center">
+            <img src="/static/MikeEnMonika.jpg"></img>
           </div>
         </div>
 
-        <div className={styles.container__introduction}>
+        <div>
           <Introduction />
         </div>
       </main>

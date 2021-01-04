@@ -1,13 +1,10 @@
-// CSS
-import styles from './Footer.scss';
-
 // Constants
 import { FOOTER_TEXT } from '../../constants/general';
 
 const Footer = () => {
   return (
     <>
-      <div className={styles.Footer}>{FOOTER_TEXT}</div>
+      <div className="mt-8 mb-4 text-2xl text-center">{FOOTER_TEXT}</div>
     </>
   );
 };
