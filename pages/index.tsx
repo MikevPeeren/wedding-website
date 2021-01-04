@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Footer from './components/Footer';
+import ImageGallery from './components/ImageGallery';
 
 // Constants
 import { HEADER } from '../constants/general';
@@ -38,6 +39,10 @@ const Home = () => {
 
         <div>
           <Introduction />
+        </div>
+
+        <div>
+          <ImageGallery />
         </div>
       </main>
 
