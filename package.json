@@ -16,7 +16,7 @@
     "sass": "^1.38.1"
   },
   "devDependencies": {
-    "@types/node": "^14.14.25",
+    "@types/node": "^16.7.1",
     "@types/react": "^17.0.19",
     "autoprefixer": "^10.3.2",
     "postcss": "^8.3.6",
