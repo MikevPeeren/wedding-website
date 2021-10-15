@@ -1,30 +1,28 @@
-import Image from 'next/image';
-
 const ImageGallery = () => {
   return (
     <div className="flex flex-wrap mx-2 my-14 overflow-hidden">
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-23.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
 
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-12.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
 
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-08.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
 
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-17.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
 
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-05.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
 
       <div className="my-2 px-2 w-1/3 overflow-hidden">
-        <img className="w-full" src="/static/monika-mike-15.jpg"></img>
+        <img className="w-full" src="static/placeholder.png"></img>
       </div>
     </div>
   );

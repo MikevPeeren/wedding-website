@@ -33,7 +33,7 @@ const Home = () => {
         <div className="flex flex-1 flex-col flex-wrap mb-16">
           <Header />
           <div className="flex justify-center">
-            <img src="/static/MikeEnMonika.jpg"></img>
+            <img className="h-80" src="static/placeholder.png"></img>
           </div>
         </div>
 
