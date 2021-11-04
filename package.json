@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
-    "@types/react": "^17.0.33",
+    "@types/react": "^17.0.34",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "postcss-preset-env": "^6.7.0",
