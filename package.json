@@ -16,9 +16,9 @@
     "sass": "^1.50.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.25",
+    "@types/node": "^17.0.26",
     "@types/react": "^17.0.43",
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.5",
     "postcss": "^8.4.12",
     "postcss-preset-env": "^7.4.3",
     "prettier": "^2.6.2",
