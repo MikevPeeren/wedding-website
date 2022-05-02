@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/node": "^17.0.29",
     "@types/react": "^17.0.43",
-    "autoprefixer": "^10.4.5",
+    "autoprefixer": "^10.4.6",
     "postcss": "^8.4.12",
     "postcss-preset-env": "^7.4.4",
     "prettier": "^2.6.2",
